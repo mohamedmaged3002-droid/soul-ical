@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-28T20:29:04.703Z",
-  "written": 35,
+  "startedAt": "2026-06-28T20:46:07.084Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -549,247 +549,247 @@
       "code": "Lea 2B 402",
       "compound": "Marassi",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Lea-1A-304",
       "code": "Lea 1A 304",
       "compound": "Marassi",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "1A-20KM-1-2-GREEK",
       "code": "1A-20KM 1-2 GREEK",
       "compound": "Marassi",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z27-4",
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
       "code": "A61-4",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A27-6",
       "code": "A27-6",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-65",
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "R16-3",
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A72-4",
       "code": "A72-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z29-1",
       "code": "Z29-1",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A29-4",
       "code": "A29-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B3-CH75-G01",
       "code": "B3-CH75-G01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B3-CH75-02-02",
       "code": "B3-CH75-02-02",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B2-ch40-01-02",
       "code": "B2-ch40-01-02",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "c2-ch28-02-01",
       "code": "c2-ch28-02-01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "C3-CH1-01-01",
       "code": "C3-CH1-01-01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "C2-CH19-G01",
       "code": "C2-CH19-G01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Ch24-G01",
       "code": "Ch24-G01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "b3-ch84-02-01",
       "code": "b3-ch84-02-01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B3-CH18-G01",
       "code": "B3-CH18-G01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-CH20-02-04",
       "code": "B1-CH20-02-04",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-CH20-02-04",
       "code": "B-CH20-02-04",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "c1-CH20-02-02",
       "code": "c1-CH20-02-02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "C2-ch26-01-03",
       "code": "C2-ch26-01-03",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B2-CH5-G02",
       "code": "B2-CH5-G02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "c2-ch34-01-01",
       "code": "c2-ch34-01-01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12C",
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-c2b",
       "code": "B1-c2b",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-GCH-154af-s",
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
       "code": "Wst-haz-3614",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-HAZ-3806",
       "code": "Wst-HAZ-3806",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-CAB-L138",
       "code": "Wst-CAB-L138",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-06-28T20:29:04.719Z"
+  "finishedAt": "2026-06-28T20:46:07.113Z"
 }
