@@ -40,27 +40,41 @@ function mergeResolver(merges) {
 }
 
 function compoundFromTitle(title) {
-  return String(title).replace(/availability/ig, '').trim() || String(title);
+  // Strip a trailing "availability"/"availabilty"/… token, keep the rest.
+  return String(title).replace(/\bavailab\w*/ig, '').trim() || String(title);
 }
 
 // tab: { title, merges, rows }. opts: { todayIso }.
 // -> { ok:true, title, compound, dateRows, units:[{code,beds,compound,blockedIso[]}] }
 //    or { ok:false, reason, title }.
+//
+// Structure (consistent across Soul's compounds, but the column-A header label
+// varies — "UNIT NUMBER" / "unit code" / blank): unit codes sit in a top header
+// row across columns >=1, bedrooms in the next row, and dates run down column A.
+// We detect it structurally rather than by a fixed label: column A is the date
+// axis; the code row is the topmost row above the first date that has codes.
 function parseTab(tab, { todayIso }) {
   const title = tab.title;
   if (/price/i.test(title)) return { ok: false, reason: 'prices-tab', title };
   const rows = tab.rows || [];
+  const labelCol = 0; // dates live in column A throughout this sheet
 
-  // Anchor: locate the cell whose text is "UNIT NUMBER".
-  let unitRowIdx = -1, labelCol = -1;
-  for (let r = 0; r < rows.length && unitRowIdx < 0; r++) {
-    for (let c = 0; c < rows[r].length; c++) {
-      if ((rows[r][c].text || '').trim().toUpperCase() === 'UNIT NUMBER') {
-        unitRowIdx = r; labelCol = c; break;
-      }
-    }
+  // First row whose column-A cell parses as a date.
+  let firstDateRow = -1;
+  for (let r = 0; r < rows.length; r++) {
+    if (parseSheetDate((rows[r][labelCol] || {}).text)) { firstDateRow = r; break; }
   }
-  if (unitRowIdx < 0) return { ok: false, reason: 'no-unit-row', title };
+  if (firstDateRow < 1) return { ok: false, reason: 'no-date-rows', title };
+
+  // Code row = topmost header row (above the dates) with >=1 non-empty cell in cols>=1.
+  let unitRowIdx = -1;
+  for (let r = 0; r < firstDateRow; r++) {
+    const row = rows[r] || [];
+    let cnt = 0;
+    for (let c = labelCol + 1; c < row.length; c++) if ((row[c].text || '').trim()) cnt++;
+    if (cnt >= 1) { unitRowIdx = r; break; }
+  }
+  if (unitRowIdx < 0) return { ok: false, reason: 'no-code-row', title };
 
   const unitRow = rows[unitRowIdx];
   const cols = [];

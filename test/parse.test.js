@@ -70,6 +70,26 @@ test('parseTab skips dates before today', () => {
   assert.deepStrictEqual(res.units[0].blockedIso, ['2026-07-01']); // 1 May dropped as past
 });
 
-test('parseTab returns ok:false when there is no UNIT NUMBER anchor', () => {
+test('parseTab returns ok:false when the tab has no date rows', () => {
   assert.strictEqual(parseTab({ title: 'X availability', merges: [], rows: [[cell('whoops')]] }, { todayIso: '2026-01-01' }).ok, false);
+});
+
+test('parseTab works when column A header is blank or a different label (no "UNIT NUMBER")', () => {
+  // Gaia/Marassi/Sokhna style: header label is blank / "unit code", codes still in row 0.
+  const rows = [
+    [cell(''), cell('Z27-4'), cell('A61-4')],
+    [cell('no. of beds'), cell('3'), cell('2 BEDROOM')],
+    [cell('Wednesday 1/7/2026'), cell('', { red: 0, green: 1, blue: 0 }), cell('', { red: 1, green: 1, blue: 1 })],
+  ];
+  const res = parseTab({ title: 'Gaia availability', merges: [], rows }, { todayIso: '2026-06-01' });
+  assert.strictEqual(res.ok, true);
+  assert.strictEqual(res.compound, 'Gaia');
+  assert.strictEqual(res.units.length, 2);
+  assert.deepStrictEqual(res.units.find((u) => u.code === 'Z27-4').blockedIso, ['2026-07-01']);
+  assert.deepStrictEqual(res.units.find((u) => u.code === 'A61-4').blockedIso, []); // white = free
+});
+
+test('compoundFromTitle strips the (mis-spelled) availability token', () => {
+  const { compoundFromTitle } = require('../src/parse');
+  assert.strictEqual(compoundFromTitle('Hacienda west & D-bay availabilty'), 'Hacienda west & D-bay');
 });
