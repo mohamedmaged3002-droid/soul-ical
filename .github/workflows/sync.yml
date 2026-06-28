@@ -1,0 +1,57 @@
+name: Sync Soul iCal
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes (public repo => free unlimited minutes)
+  workflow_dispatch:
+
+# Avoid overlapping runs piling up on a slow Sheets call.
+concurrency:
+  group: soul-ical-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'   # 22+ has native WebSocket (required by @supabase/supabase-js)
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Read Soul sheet and build feeds
+        env:
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+          SOUL_SHEET_ID: ${{ secrets.SOUL_SHEET_ID }}
+        run: node sync.js
+
+      - name: Wire matched feeds into listing_ical
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: node wire.js
+
+      - name: Commit updated feeds
+        run: |
+          git config user.name  "soul-ical[bot]"
+          git config user.email "soul-ical@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "chore: sync soul ical $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # Robust push: a concurrent run (or a manual push) may have moved main.
+          for i in 1 2 3 4 5; do
+            git push && { echo "Pushed (attempt $i)."; exit 0; }
+            echo "Push rejected; integrating remote and retrying ($i)..."
+            git fetch origin main
+            git merge -X ours --no-edit origin/main || true
+          done
+          echo "ERROR: push failed after 5 attempts"; exit 1

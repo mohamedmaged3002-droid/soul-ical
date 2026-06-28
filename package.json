@@ -1,0 +1,19 @@
+{
+  "name": "soul-ical",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Per-unit iCal feeds for BlueKeys calendar sync.",
+  "main": "sync.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "sync": "node sync.js",
+    "wire": "node wire.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
+  }
+}
