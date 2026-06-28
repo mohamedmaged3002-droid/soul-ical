@@ -23,7 +23,23 @@ async function main() {
     if (m) entries.push({ wp: m.wp, slug: m.slug, ical_url: `${cfg.PAGES_BASE_URL}/${u.slug}.ics` });
   }
   const { upserted } = await wireUnits(sb, entries);
-  console.log(`Wired ${upserted}/${units.length} feeds into listing_ical (${units.length - upserted} OTA-only, no DB match).`);
+
+  // Prune our own orphan rows: listing_ical entries we previously wrote whose unit
+  // is no longer in the feed set (e.g. a unit whose tab got hidden). Scoped to
+  // notes='[soul-ical auto]' so we never touch other sources' rows.
+  let pruned = 0;
+  const keep = entries.map((e) => e.wp);
+  if (keep.length) {
+    const { data, error } = await sb
+      .from('listing_ical')
+      .delete()
+      .eq('notes', '[soul-ical auto]')
+      .not('wordpress_post_id', 'in', `(${keep.join(',')})`)
+      .select('wordpress_post_id');
+    if (error) throw new Error(`prune: ${error.message}`);
+    pruned = (data || []).length;
+  }
+  console.log(`Wired ${upserted}/${units.length} feeds (${units.length - upserted} OTA-only); pruned ${pruned} orphan listing_ical rows.`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

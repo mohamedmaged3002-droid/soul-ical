@@ -50,6 +50,12 @@ async function main() {
   const usedSlug = new Map(); // slug -> code, to detect cross-unit filename collisions
 
   for (const tab of tabs) {
+    if (tab.hidden) {
+      // A hidden tab means "not active" — exclude it (e.g. Marassi).
+      report.tabs.push({ title: tab.title, ok: false, reason: 'hidden-tab', dateRows: 0, units: 0 });
+      console.log(`  tab "${tab.title}" SKIPPED (hidden)`);
+      continue;
+    }
     const res = parseTab(tab, { todayIso: tIso });
     report.tabs.push({ title: tab.title, ok: res.ok, reason: res.reason || null, dateRows: res.dateRows || 0, units: res.units ? res.units.length : 0 });
     if (!res.ok) {

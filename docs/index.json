@@ -1,15 +1,6 @@
 {
-  "updatedAt": "2026-06-28T21:00:03.734Z",
+  "updatedAt": "2026-06-28T20:59:11.914Z",
   "units": [
-    {
-      "slug": "1A-20KM-1-2-GREEK",
-      "code": "1A-20KM 1-2 GREEK",
-      "compound": "Marassi",
-      "beds": "1 BED",
-      "title": "1A-20KM 1-2 GREEK — 1 BED — Marassi",
-      "sig": "2026-07-01/2026-08-01",
-      "blockedRanges": 1
-    },
     {
       "slug": "A27-6",
       "code": "A27-6",
@@ -603,24 +594,6 @@
       "title": "F1-V20 — 4 bed stand alone + nany — Foukabay",
       "sig": "2026-07-16/2026-07-20,2026-07-25/2026-07-29",
       "blockedRanges": 2
-    },
-    {
-      "slug": "Lea-1A-304",
-      "code": "Lea 1A 304",
-      "compound": "Marassi",
-      "beds": "1bed",
-      "title": "Lea 1A 304 — 1bed — Marassi",
-      "sig": "",
-      "blockedRanges": 0
-    },
-    {
-      "slug": "Lea-2B-402",
-      "code": "Lea 2B 402",
-      "compound": "Marassi",
-      "beds": "2bed",
-      "title": "Lea 2B 402 — 2bed — Marassi",
-      "sig": "2026-07-15/2026-08-01",
-      "blockedRanges": 1
     },
     {
       "slug": "R16-3",

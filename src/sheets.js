@@ -90,7 +90,7 @@ async function getAccessToken(env = process.env) {
 async function fetchGridOnce(spreadsheetId) {
   const token = await getAccessToken();
   const fields = encodeURIComponent(
-    'sheets(properties(title),merges,data(rowData(values(formattedValue,effectiveFormat(backgroundColor)))))',
+    'sheets(properties(title,hidden),merges,data(rowData(values(formattedValue,effectiveFormat(backgroundColor)))))',
   );
   const url =
     `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(spreadsheetId)}` +
@@ -106,7 +106,7 @@ async function fetchGridOnce(spreadsheetId) {
         bg: (v.effectiveFormat && v.effectiveFormat.backgroundColor) || null,
       })),
     );
-    return { title: s.properties.title, merges: s.merges || [], rows };
+    return { title: s.properties.title, hidden: !!s.properties.hidden, merges: s.merges || [], rows };
   });
 }
 
