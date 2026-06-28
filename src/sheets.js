@@ -1,18 +1,41 @@
-// Read-only Google Sheets access. Auth = OAuth as maged@bluekeys.co (who already has
-// read access to the Soul sheet). The googleapis client auto-refreshes the access
-// token from GOOGLE_OAUTH_REFRESH_TOKEN. We request read-only scope; never write.
+// Read-only Google Sheets access. Two auth methods are supported; whichever is
+// configured in env wins (service account takes precedence if both are present):
+//   1. Service account  — set GDRIVE_SA_JSON (the same key mynt-drive-adapter uses).
+//      The SA's client_email must be granted Viewer on the Soul sheet.
+//   2. OAuth as a user   — set GOOGLE_OAUTH_CLIENT_ID/SECRET/REFRESH_TOKEN
+//      (authenticates as maged@bluekeys.co, who already has read access).
+// Either way we request read-only scope and never write to Sheets.
 const { google } = require('googleapis');
 
-function sheetsClient() {
-  const cid = process.env.GOOGLE_OAUTH_CLIENT_ID;
-  const csec = process.env.GOOGLE_OAUTH_CLIENT_SECRET;
-  const rtok = process.env.GOOGLE_OAUTH_REFRESH_TOKEN;
-  if (!cid || !csec || !rtok) {
-    throw new Error('Set GOOGLE_OAUTH_CLIENT_ID, GOOGLE_OAUTH_CLIENT_SECRET, GOOGLE_OAUTH_REFRESH_TOKEN in env');
+const SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly'];
+
+// 'service-account' | 'oauth' | 'none' — pure, so it can be unit-tested.
+function authMode(env = process.env) {
+  if (env.GDRIVE_SA_JSON) return 'service-account';
+  if (env.GOOGLE_OAUTH_CLIENT_ID && env.GOOGLE_OAUTH_CLIENT_SECRET && env.GOOGLE_OAUTH_REFRESH_TOKEN) {
+    return 'oauth';
   }
-  const oauth2 = new google.auth.OAuth2(cid, csec);
-  oauth2.setCredentials({ refresh_token: rtok });
-  return google.sheets({ version: 'v4', auth: oauth2 });
+  return 'none';
+}
+
+function buildAuth(env = process.env) {
+  const mode = authMode(env);
+  if (mode === 'service-account') {
+    return new google.auth.GoogleAuth({ credentials: JSON.parse(env.GDRIVE_SA_JSON), scopes: SCOPES });
+  }
+  if (mode === 'oauth') {
+    const oauth2 = new google.auth.OAuth2(env.GOOGLE_OAUTH_CLIENT_ID, env.GOOGLE_OAUTH_CLIENT_SECRET);
+    oauth2.setCredentials({ refresh_token: env.GOOGLE_OAUTH_REFRESH_TOKEN });
+    return oauth2;
+  }
+  throw new Error(
+    'No Google auth configured. Set GDRIVE_SA_JSON (service account) OR ' +
+    'GOOGLE_OAUTH_CLIENT_ID + GOOGLE_OAUTH_CLIENT_SECRET + GOOGLE_OAUTH_REFRESH_TOKEN (OAuth).',
+  );
+}
+
+function sheetsClient() {
+  return google.sheets({ version: 'v4', auth: buildAuth() });
 }
 
 // Pull every tab with values + effective background colours + merges. Returns
@@ -38,4 +61,4 @@ async function fetchGrid(spreadsheetId) {
   });
 }
 
-module.exports = { sheetsClient, fetchGrid };
+module.exports = { authMode, buildAuth, sheetsClient, fetchGrid };
