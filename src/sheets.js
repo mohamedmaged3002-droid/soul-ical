@@ -38,11 +38,42 @@ function sheetsClient() {
   return google.sheets({ version: 'v4', auth: buildAuth() });
 }
 
+// Transient network failures worth retrying. ERR_STREAM_PREMATURE_CLOSE in
+// particular hits the OAuth token endpoint on CI runners — gaxios won't retry a
+// stream that already started, so we retry the whole call ourselves.
+function isTransient(err) {
+  if (!err) return false;
+  if (err.code === 'ERR_STREAM_PREMATURE_CLOSE') return true;
+  return /premature close|ECONNRESET|ETIMEDOUT|socket hang up|EAI_AGAIN|fetch failed|network|503|429/i
+    .test(`${err.code || ''} ${err.message || ''}`);
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 // Pull every tab with values + effective background colours + merges. Returns
 //   [{ title, merges:[{startRowIndex,endRowIndex,startColumnIndex,endColumnIndex}],
 //      rows: cell[][] }]   where cell = { text:string, bg:{red,green,blue}|null }.
-async function fetchGrid(spreadsheetId) {
+async function fetchGrid(spreadsheetId, { retries = 5 } = {}) {
   const sheets = sheetsClient();
+  let lastErr;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      return await fetchGridOnce(sheets, spreadsheetId);
+    } catch (e) {
+      lastErr = e;
+      if (attempt < retries && isTransient(e)) {
+        const wait = 1000 * 2 ** (attempt - 1); // 1s,2s,4s,8s
+        console.warn(`fetchGrid attempt ${attempt} failed (${e.code || e.message}); retrying in ${wait}ms`);
+        await sleep(wait);
+        continue;
+      }
+      throw e;
+    }
+  }
+  throw lastErr;
+}
+
+async function fetchGridOnce(sheets, spreadsheetId) {
   const { data } = await sheets.spreadsheets.get({
     spreadsheetId,
     includeGridData: true,
@@ -61,4 +92,4 @@ async function fetchGrid(spreadsheetId) {
   });
 }
 
-module.exports = { authMode, buildAuth, sheetsClient, fetchGrid };
+module.exports = { authMode, buildAuth, sheetsClient, fetchGrid, isTransient };
