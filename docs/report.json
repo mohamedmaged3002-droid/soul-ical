@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-29T19:22:11.306Z",
-  "written": 0,
+  "startedAt": "2026-06-29T21:09:58.338Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -93,15 +93,15 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "F1-V20",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-06-29T19:22:11.330Z"
+  "finishedAt": "2026-06-29T21:09:58.363Z"
 }
