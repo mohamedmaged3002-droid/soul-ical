@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-29T05:14:00.203Z",
-  "written": 0,
+  "startedAt": "2026-06-29T10:02:33.857Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -234,7 +234,7 @@
       "code": "ST5-87-02-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "st5-89-01-01",
@@ -632,8 +632,8 @@
       "slug": "B2-ch40-01-02",
       "code": "B2-ch40-01-02",
       "compound": "Sokhna",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "c2-ch28-02-01",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-06-29T05:14:00.228Z"
+  "finishedAt": "2026-06-29T10:02:33.881Z"
 }
