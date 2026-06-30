@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-06-30T19:20:43.666Z",
+  "startedAt": "2026-06-30T21:16:05.515Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -157,7 +157,7 @@
       "code": "SA-4B-104",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-6b-G03",
@@ -171,7 +171,7 @@
       "code": "SA-8A-201",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-8A-203",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-06-30T19:20:43.690Z"
+  "finishedAt": "2026-06-30T21:16:05.541Z"
 }
