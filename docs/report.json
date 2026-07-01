@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-01T08:53:04.697Z",
-  "written": 1,
+  "startedAt": "2026-07-01T12:11:59.293Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -661,7 +661,7 @@
       "code": "C2-CH19-G01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Ch24-G01",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-01T08:53:04.722Z"
+  "finishedAt": "2026-07-01T12:11:59.318Z"
 }
