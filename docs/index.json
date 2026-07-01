@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T17:25:11.290Z",
+  "updatedAt": "2026-07-01T19:19:13.383Z",
   "units": [
     {
       "slug": "A27-6",
@@ -124,8 +124,8 @@
       "compound": "Sokhna",
       "beds": "3 BEDROOM",
       "title": "B3-CH75-02-02 — 3 BEDROOM — Sokhna",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-02/2026-07-04",
+      "blockedRanges": 1
     },
     {
       "slug": "B3-CH75-G01",
@@ -133,8 +133,8 @@
       "compound": "Sokhna",
       "beds": "3 BEDROOM",
       "title": "B3-CH75-G01 — 3 BEDROOM — Sokhna",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-02/2026-07-04",
+      "blockedRanges": 1
     },
     {
       "slug": "b3-ch84-02-01",
@@ -205,8 +205,8 @@
       "compound": "Sokhna",
       "beds": "3 Bedrooms + nanny",
       "title": "Ch24-G01 — 3 Bedrooms + nanny — Sokhna",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-02/2026-07-04",
+      "blockedRanges": 1
     },
     {
       "slug": "CL1-34-02",
