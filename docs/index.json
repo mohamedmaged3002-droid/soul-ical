@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T04:56:32.777Z",
+  "updatedAt": "2026-07-01T08:53:04.722Z",
   "units": [
     {
       "slug": "A27-6",
@@ -160,8 +160,8 @@
       "compound": "Sokhna",
       "beds": "3 Bedrooms",
       "title": "C2-CH19-G01 — 3 Bedrooms — Sokhna",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-01/2026-07-10",
+      "blockedRanges": 1
     },
     {
       "slug": "C2-ch26-01-03",
