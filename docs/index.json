@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T21:08:23.589Z",
+  "updatedAt": "2026-07-01T22:41:18.335Z",
   "units": [
     {
       "slug": "A27-6",
@@ -286,8 +286,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL10-CH11B-02 — 3 bed — Foukabay",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-02/2026-07-04",
+      "blockedRanges": 1
     },
     {
       "slug": "cl10-ch13b-02",
@@ -855,6 +855,15 @@
       "title": "Wst-HAZ-3806 — 3 master + nany — Hacienda west & D-bay",
       "sig": "",
       "blockedRanges": 0
+    },
+    {
+      "slug": "Wst-hazel-3223",
+      "code": "Wst-hazel-3223",
+      "compound": "Hacienda west & D-bay",
+      "beds": "3  + nany",
+      "title": "Wst-hazel-3223 — 3  + nany — Hacienda west & D-bay",
+      "sig": "2026-07-02/2026-07-05",
+      "blockedRanges": 1
     },
     {
       "slug": "z-106",
