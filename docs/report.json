@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-01T22:41:18.311Z",
-  "written": 2,
+  "startedAt": "2026-07-01T23:57:53.155Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -430,7 +430,7 @@
       "code": "CL10-CH11B-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl10-12b-03",
@@ -766,9 +766,9 @@
       "code": "Wst-hazel-3223",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-01T22:41:18.335Z"
+  "finishedAt": "2026-07-01T23:57:53.179Z"
 }
