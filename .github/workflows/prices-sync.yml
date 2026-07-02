@@ -37,8 +37,11 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
           SOUL_SHEET_ID: ${{ secrets.SOUL_SHEET_ID }}
-          # Supabase write target.
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          # Write target = the STANDALONE Soul website DB (NOT BlueKeys). These
+          # are dedicated secrets — the repo's SUPABASE_URL/KEY point at BlueKeys
+          # for the legacy iCal wiring, so prices must never use them. Add
+          # SOUL_SUPABASE_URL + SOUL_SUPABASE_SERVICE_ROLE_KEY as repo secrets.
+          SOUL_SUPABASE_URL: ${{ secrets.SOUL_SUPABASE_URL }}
+          SOUL_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SOUL_SUPABASE_SERVICE_ROLE_KEY }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: node prices-sync.js

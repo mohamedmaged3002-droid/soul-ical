@@ -21,12 +21,26 @@
  * as used by src/sheets.js). HORIZON_END optional (default 2026-09-30).
  */
 require('dotenv').config();
+const { createClient } = require('@supabase/supabase-js');
 const { fetchGrid } = require('./src/sheets.js');
-const { getSupabase } = require('./src/supabase.js');
 const { SHEET_ID } = require('./src/config.js');
 
 const DRY_RUN = process.env.DRY_RUN === '1' || process.env.DRY_RUN === 'true';
 const HORIZON_END = process.env.HORIZON_END || '2026-09-30';
+
+// IMPORTANT: this cron writes guest-facing nightly prices for the STANDALONE
+// Soul website, whose Supabase is SEPARATE from BlueKeys. Use dedicated
+// SOUL_SUPABASE_* creds — NOT soul-ical's shared getSupabase() (which points at
+// BlueKeys for the legacy iCal wiring). Required + no fallback so this can
+// never accidentally write to the BlueKeys database.
+function getSoulSupabase() {
+  const url = process.env.SOUL_SUPABASE_URL;
+  const key = process.env.SOUL_SUPABASE_SERVICE_ROLE_KEY;
+  if (!url || !key) {
+    throw new Error('Set SOUL_SUPABASE_URL and SOUL_SUPABASE_SERVICE_ROLE_KEY (the standalone Soul website DB).');
+  }
+  return createClient(url, key, { auth: { persistSession: false } });
+}
 
 // ── helpers ────────────────────────────────────────────────────────────────
 const norm = (s) =>
@@ -65,7 +79,7 @@ function mapHeader(headerCells) {
 
 async function main() {
   console.log(`Soul price-sync${DRY_RUN ? ' (DRY RUN)' : ''} — sheet ${SHEET_ID}`);
-  const sb = getSupabase();
+  const sb = getSoulSupabase();
 
   // 1) DB unit index: normalised source_code -> {wp, currency, status, code}
   const { data: units, error: uErr } = await sb
