@@ -1,0 +1,44 @@
+name: Sync Soul Prices
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # daily at 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Parse + report only, no DB writes'
+        type: boolean
+        default: false
+
+# Serialize with the iCal sync's Sheets calls and with itself.
+concurrency:
+  group: soul-prices-sync
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'   # 22+ has native WebSocket (required by @supabase/supabase-js)
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Read Soul sheet + write unit_daily_prices
+        env:
+          # Google Sheets auth — same secrets as the iCal sync (service account wins).
+          GDRIVE_SA_JSON: ${{ secrets.GDRIVE_SA_JSON }}
+          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
+          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
+          GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
+          SOUL_SHEET_ID: ${{ secrets.SOUL_SHEET_ID }}
+          # Supabase write target.
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
+        run: node prices-sync.js
