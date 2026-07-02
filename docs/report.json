@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-02T15:32:08.769Z",
-  "written": 7,
+  "startedAt": "2026-07-02T17:20:48.857Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -32,18 +32,18 @@
       "units": 0
     },
     {
-      "title": "Gaia availability",
-      "ok": true,
-      "reason": null,
-      "dateRows": 135,
-      "units": 10
-    },
-    {
       "title": "Gaia prices",
       "ok": false,
       "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
+    },
+    {
+      "title": "Gaia availability",
+      "ok": true,
+      "reason": null,
+      "dateRows": 135,
+      "units": 10
     },
     {
       "title": "Sokhna availability",
@@ -101,14 +101,14 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
       "code": "F1-V20",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -157,7 +157,7 @@
       "code": "SA-4B-104",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-6b-G03",
@@ -170,8 +170,8 @@
       "slug": "SA-8A-201",
       "code": "SA-8A-201",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-8A-203",
@@ -241,13 +241,13 @@
       "code": "st5-89-01-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "st5-89-02-02",
       "code": "st5-89-02-02",
       "compound": "Foukabay",
-      "ranges": 6,
+      "ranges": 5,
       "decision": "ok"
     },
     {
@@ -346,7 +346,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch22-03",
@@ -388,7 +388,7 @@
       "code": "CL6-TW7A-F",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH18-01",
@@ -444,7 +444,7 @@
       "code": "CL10-14A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl10-ch13b-02",
@@ -534,8 +534,8 @@
       "slug": "Cl11-18b-G",
       "code": "Cl11-18b-G",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "CL11-20A-01",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-02T15:32:08.794Z"
+  "finishedAt": "2026-07-02T17:20:48.883Z"
 }
