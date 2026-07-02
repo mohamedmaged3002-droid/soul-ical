@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-02T10:46:04.865Z",
-  "written": 6,
+  "startedAt": "2026-07-02T13:01:24.363Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -86,15 +86,15 @@
       "slug": "ST3-V20",
       "code": "ST3-V20",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V11",
@@ -129,14 +129,14 @@
       "code": "SA-3A-B01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B02",
       "code": "SA-3A-B02",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-4A-103",
@@ -205,8 +205,8 @@
       "slug": "ST5-CH79-01-01",
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "ST5-85-G01",
@@ -339,7 +339,7 @@
       "code": "CL4-19-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-20-G01",
@@ -423,14 +423,14 @@
       "code": "CL10-11A-G",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-CH11B-02",
       "code": "CL10-CH11B-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-12b-03",
@@ -563,14 +563,14 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
       "code": "A61-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A27-6",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-02T10:46:04.892Z"
+  "finishedAt": "2026-07-02T13:01:24.389Z"
 }
