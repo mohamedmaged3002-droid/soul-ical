@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-03T13:13:51.960Z",
-  "written": 3,
+  "startedAt": "2026-07-03T15:29:14.254Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -18,18 +18,18 @@
       "units": 0
     },
     {
-      "title": "Foukabay availability",
-      "ok": true,
-      "reason": null,
-      "dateRows": 135,
-      "units": 67
-    },
-    {
       "title": "Foukabay prices",
       "ok": false,
       "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
+    },
+    {
+      "title": "Foukabay availability",
+      "ok": true,
+      "reason": null,
+      "dateRows": 135,
+      "units": 67
     },
     {
       "title": "Gaia prices",
@@ -128,15 +128,15 @@
       "slug": "SA-3A-B01",
       "code": "SA-3A-B01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B02",
       "code": "SA-3A-B02",
       "compound": "Foukabay",
-      "ranges": 5,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "SA-4A-103",
@@ -191,8 +191,8 @@
       "slug": "SA-9B-G01",
       "code": "SA-9B-G01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "ST5-49-01-01",
@@ -269,14 +269,14 @@
       "code": "CL1-34-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-37-01",
       "code": "CL1-37-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-TW42-3",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-03T13:13:51.986Z"
+  "finishedAt": "2026-07-03T15:29:14.280Z"
 }
