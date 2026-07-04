@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T23:44:52.871Z",
+  "updatedAt": "2026-07-04T01:21:14.174Z",
   "units": [
     {
       "slug": "A27-6",
@@ -7,7 +7,7 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "A27-6 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-07-25",
+      "sig": "2026-07-04/2026-07-25",
       "blockedRanges": 1
     },
     {
@@ -16,7 +16,7 @@
       "compound": "Gaia",
       "beds": "",
       "title": "A29-4 — Gaia",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     },
     {
@@ -25,7 +25,7 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "A61-4 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-08-01",
+      "sig": "2026-07-04/2026-08-01",
       "blockedRanges": 1
     },
     {
@@ -34,7 +34,7 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "A72-4 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     },
     {
@@ -43,8 +43,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "B-65 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "B-CH20-02-04",
@@ -70,8 +70,8 @@
       "compound": "Sokhna",
       "beds": "2 Bedrooms",
       "title": "B1-CH20-02-04 — 2 Bedrooms — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "B1-SC-12C",
@@ -97,8 +97,8 @@
       "compound": "Sokhna",
       "beds": "1 bedroom",
       "title": "B2-ch40-01-02 — 1 bedroom — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "B2-CH5-G02",
@@ -106,7 +106,7 @@
       "compound": "Sokhna",
       "beds": "3 bedrooms",
       "title": "B2-CH5-G02 — 3 bedrooms — Sokhna",
-      "sig": "2026-07-03/2027-01-01",
+      "sig": "2026-07-04/2027-01-01",
       "blockedRanges": 1
     },
     {
@@ -115,7 +115,7 @@
       "compound": "Sokhna",
       "beds": "3 bedrooms",
       "title": "B3-CH18-G01 — 3 bedrooms — Sokhna",
-      "sig": "2026-07-03/2026-07-15",
+      "sig": "2026-07-04/2026-07-15",
       "blockedRanges": 1
     },
     {
@@ -124,8 +124,8 @@
       "compound": "Sokhna",
       "beds": "3 BEDROOM",
       "title": "B3-CH75-02-02 — 3 BEDROOM — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "B3-CH75-G01",
@@ -133,8 +133,8 @@
       "compound": "Sokhna",
       "beds": "3 BEDROOM",
       "title": "B3-CH75-G01 — 3 BEDROOM — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "b3-ch84-02-01",
@@ -142,7 +142,7 @@
       "compound": "Sokhna",
       "beds": "3 bedrooms",
       "title": "b3-ch84-02-01 — 3 bedrooms — Sokhna",
-      "sig": "2026-07-03/2026-07-25",
+      "sig": "2026-07-04/2026-07-25",
       "blockedRanges": 1
     },
     {
@@ -151,7 +151,7 @@
       "compound": "Sokhna",
       "beds": "1 BED ROOM",
       "title": "c1-CH20-02-02 — 1 BED ROOM — Sokhna",
-      "sig": "2026-07-03/2027-01-01",
+      "sig": "2026-07-04/2027-01-01",
       "blockedRanges": 1
     },
     {
@@ -160,7 +160,7 @@
       "compound": "Sokhna",
       "beds": "3 Bedrooms",
       "title": "C2-CH19-G01 — 3 Bedrooms — Sokhna",
-      "sig": "2026-07-03/2026-07-10",
+      "sig": "2026-07-04/2026-07-10",
       "blockedRanges": 1
     },
     {
@@ -169,7 +169,7 @@
       "compound": "Sokhna",
       "beds": "1 bed",
       "title": "C2-ch26-01-03 — 1 bed — Sokhna",
-      "sig": "2026-07-03/2027-01-01",
+      "sig": "2026-07-04/2027-01-01",
       "blockedRanges": 1
     },
     {
@@ -178,8 +178,8 @@
       "compound": "Sokhna",
       "beds": "2 bedroom",
       "title": "c2-ch28-02-01 — 2 bedroom — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "c2-ch34-01-01",
@@ -187,7 +187,7 @@
       "compound": "Sokhna",
       "beds": "",
       "title": "c2-ch34-01-01 — Sokhna",
-      "sig": "2026-07-03/2026-09-29",
+      "sig": "2026-07-04/2026-09-29",
       "blockedRanges": 1
     },
     {
@@ -196,7 +196,7 @@
       "compound": "Sokhna",
       "beds": "3 bedrooms",
       "title": "C3-CH1-01-01 — 3 bedrooms — Sokhna",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -205,8 +205,8 @@
       "compound": "Sokhna",
       "beds": "3 Bedrooms + nanny",
       "title": "Ch24-G01 — 3 Bedrooms + nanny — Sokhna",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "CL1-34-02",
@@ -214,7 +214,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL1-34-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-22/2026-07-23",
+      "sig": "2026-07-04/2026-07-05,2026-07-22/2026-07-23",
       "blockedRanges": 2
     },
     {
@@ -250,7 +250,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl10-12b-03 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-12",
+      "sig": "2026-07-04/2026-07-12",
       "blockedRanges": 1
     },
     {
@@ -286,7 +286,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL10-CH11B-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -358,8 +358,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl11-8a-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-04,2026-07-14/2026-07-18,2026-07-24/2026-07-31",
-      "blockedRanges": 3
+      "sig": "2026-07-14/2026-07-18,2026-07-24/2026-07-31",
+      "blockedRanges": 2
     },
     {
       "slug": "cl11-ch13-02",
@@ -367,7 +367,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl11-ch13-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -403,7 +403,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl11-ch9b-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-18/2026-08-07",
+      "sig": "2026-07-04/2026-07-05,2026-07-18/2026-08-07",
       "blockedRanges": 2
     },
     {
@@ -412,7 +412,7 @@
       "compound": "Foukabay",
       "beds": "3 + nany",
       "title": "CL2-CH8-01 — 3 + nany — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-10/2026-07-15,2026-07-16/2026-07-20,2026-07-22/2026-07-26,2026-07-30/2026-08-03,2026-08-08/2026-08-13",
+      "sig": "2026-07-04/2026-07-05,2026-07-10/2026-07-15,2026-07-16/2026-07-20,2026-07-22/2026-07-26,2026-07-30/2026-08-03,2026-08-08/2026-08-13",
       "blockedRanges": 6
     },
     {
@@ -430,7 +430,7 @@
       "compound": "Foukabay",
       "beds": "3 bed + nany",
       "title": "CL3-27-g01 — 3 bed + nany — Foukabay",
-      "sig": "2026-07-03/2026-07-06,2026-07-12/2026-07-21,2026-07-23/2026-07-27,2026-08-03/2026-08-08,2026-08-10/2026-08-14",
+      "sig": "2026-07-04/2026-07-06,2026-07-12/2026-07-21,2026-07-23/2026-07-27,2026-08-03/2026-08-08,2026-08-10/2026-08-14",
       "blockedRanges": 5
     },
     {
@@ -439,7 +439,7 @@
       "compound": "Foukabay",
       "beds": "2Bed 1st floor + garden",
       "title": "Cl3-TW4-AX — 2Bed 1st floor + garden — Foukabay",
-      "sig": "2026-07-03/2026-07-14,2026-07-17/2026-08-11,2026-08-23/2026-08-27",
+      "sig": "2026-07-04/2026-07-14,2026-07-17/2026-08-11,2026-08-23/2026-08-27",
       "blockedRanges": 3
     },
     {
@@ -466,7 +466,7 @@
       "compound": "Foukabay",
       "beds": "3+nany",
       "title": "CL4-19-02 — 3+nany — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-06/2026-07-31,2026-08-05/2026-08-15",
+      "sig": "2026-07-04/2026-07-05,2026-07-06/2026-07-31,2026-08-05/2026-08-15",
       "blockedRanges": 3
     },
     {
@@ -475,7 +475,7 @@
       "compound": "Foukabay",
       "beds": "3+1+private pool",
       "title": "CL4-19-G01 — 3+1+private pool — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-06/2026-07-15,2026-07-16/2026-07-30,2026-07-31/2026-08-20,2026-08-28/2026-09-04",
+      "sig": "2026-07-04/2026-07-05,2026-07-06/2026-07-15,2026-07-16/2026-07-30,2026-07-31/2026-08-20,2026-08-28/2026-09-04",
       "blockedRanges": 5
     },
     {
@@ -493,7 +493,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl4-ch22-03 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     },
     {
@@ -520,7 +520,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl4-ch33-03 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     },
     {
@@ -529,7 +529,7 @@
       "compound": "Foukabay",
       "beds": "ground",
       "title": "CL4-CH34-G01 — ground — Foukabay",
-      "sig": "2026-07-03/2026-07-07,2026-07-11/2026-07-23,2026-07-24/2026-08-07",
+      "sig": "2026-07-04/2026-07-07,2026-07-11/2026-07-23,2026-07-24/2026-08-07",
       "blockedRanges": 3
     },
     {
@@ -538,7 +538,7 @@
       "compound": "Foukabay",
       "beds": "3Bed 1st floor + garden",
       "title": "CL6-TW7A-F — 3Bed 1st floor + garden — Foukabay",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     },
     {
@@ -574,7 +574,7 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany",
       "title": "CL8-V11 — 4 bed stand alone + nany — Foukabay",
-      "sig": "2026-07-03/2026-07-15,2026-08-02/2026-08-06,2026-08-12/2026-08-26",
+      "sig": "2026-07-04/2026-07-15,2026-08-02/2026-08-06,2026-08-12/2026-08-26",
       "blockedRanges": 3
     },
     {
@@ -610,7 +610,7 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "R16-3 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -619,7 +619,7 @@
       "compound": "Foukabay",
       "beds": "3bed ground",
       "title": "SA-1B-05 — 3bed ground — Foukabay",
-      "sig": "2026-07-03/2026-07-09,2026-07-10/2026-08-14",
+      "sig": "2026-07-04/2026-07-09,2026-07-10/2026-08-14",
       "blockedRanges": 2
     },
     {
@@ -628,8 +628,8 @@
       "compound": "Foukabay",
       "beds": "2 BED",
       "title": "SA-2B-01 — 2 BED — Foukabay",
-      "sig": "2026-07-03/2026-07-04,2026-07-11/2026-10-02",
-      "blockedRanges": 2
+      "sig": "2026-07-11/2026-10-02",
+      "blockedRanges": 1
     },
     {
       "slug": "SA-3A-B01",
@@ -655,7 +655,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "SA-4A-103 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-11/2026-07-20,2026-07-22/2026-08-15,2026-08-20/2026-08-24",
+      "sig": "2026-07-04/2026-07-05,2026-07-11/2026-07-20,2026-07-22/2026-08-15,2026-08-20/2026-08-24",
       "blockedRanges": 4
     },
     {
@@ -664,8 +664,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "SA-4B-102 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-04,2026-07-22/2026-08-14",
-      "blockedRanges": 2
+      "sig": "2026-07-22/2026-08-14",
+      "blockedRanges": 1
     },
     {
       "slug": "SA-4B-104",
@@ -682,7 +682,7 @@
       "compound": "Foukabay",
       "beds": "2 bed ground",
       "title": "SA-6b-G03 — 2 bed ground — Foukabay",
-      "sig": "2026-07-03/2026-07-14,2026-07-17/2026-08-17,2026-08-21/2026-08-23,2026-09-01/2026-09-04",
+      "sig": "2026-07-04/2026-07-14,2026-07-17/2026-08-17,2026-08-21/2026-08-23,2026-09-01/2026-09-04",
       "blockedRanges": 4
     },
     {
@@ -691,7 +691,7 @@
       "compound": "Foukabay",
       "beds": "2 bed",
       "title": "SA-8A-201 — 2 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-15/2026-07-20,2026-07-25/2026-07-30",
+      "sig": "2026-07-04/2026-07-05,2026-07-15/2026-07-20,2026-07-25/2026-07-30",
       "blockedRanges": 3
     },
     {
@@ -700,7 +700,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "SA-8A-203 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-10,2026-07-12/2026-08-13,2026-08-18/2026-08-22",
+      "sig": "2026-07-04/2026-07-10,2026-07-12/2026-08-13,2026-08-18/2026-08-22",
       "blockedRanges": 3
     },
     {
@@ -718,7 +718,7 @@
       "compound": "Foukabay",
       "beds": "2 bed  Ground",
       "title": "SA-9B-G01 — 2 bed  Ground — Foukabay",
-      "sig": "2026-07-03/2026-07-14,2026-07-25/2026-08-05,2026-08-12/2026-08-21",
+      "sig": "2026-07-04/2026-07-14,2026-07-25/2026-08-05,2026-08-12/2026-08-21",
       "blockedRanges": 3
     },
     {
@@ -727,7 +727,7 @@
       "compound": "Foukabay",
       "beds": "5 bed  with private pool",
       "title": "ST3-V20 — 5 bed  with private pool — Foukabay",
-      "sig": "2026-07-03/2026-07-06,2026-07-10/2026-07-26,2026-07-27/2026-10-02",
+      "sig": "2026-07-04/2026-07-06,2026-07-10/2026-07-26,2026-07-27/2026-10-02",
       "blockedRanges": 3
     },
     {
@@ -763,7 +763,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-86-01-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-19/2026-07-26,2026-07-27/2026-08-07,2026-08-09/2026-08-13,2026-08-16/2026-08-23",
+      "sig": "2026-07-04/2026-07-05,2026-07-19/2026-07-26,2026-07-27/2026-08-07,2026-08-09/2026-08-13,2026-08-16/2026-08-23",
       "blockedRanges": 5
     },
     {
@@ -772,7 +772,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-87-02-01 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-10/2026-07-21,2026-07-29/2026-08-02,2026-08-05/2026-08-08,2026-08-09/2026-08-17",
+      "sig": "2026-07-04/2026-07-05,2026-07-10/2026-07-21,2026-07-29/2026-08-02,2026-08-05/2026-08-08,2026-08-09/2026-08-17",
       "blockedRanges": 5
     },
     {
@@ -790,7 +790,7 @@
       "compound": "Foukabay",
       "beds": "3bed",
       "title": "st5-89-02-02 — 3bed — Foukabay",
-      "sig": "2026-07-03/2026-07-05,2026-07-08/2026-07-12,2026-07-23/2026-07-30,2026-07-31/2026-08-07,2026-08-13/2026-08-21",
+      "sig": "2026-07-04/2026-07-05,2026-07-08/2026-07-12,2026-07-23/2026-07-30,2026-07-31/2026-08-07,2026-08-13/2026-08-21",
       "blockedRanges": 5
     },
     {
@@ -799,7 +799,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-93-02-02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-21,2026-07-23/2026-07-27,2026-08-01/2026-08-16",
+      "sig": "2026-07-04/2026-07-21,2026-07-23/2026-07-27,2026-08-01/2026-08-16",
       "blockedRanges": 3
     },
     {
@@ -808,7 +808,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-94-G02 — 3 bed — Foukabay",
-      "sig": "2026-07-03/2026-07-20,2026-07-26/2026-08-24",
+      "sig": "2026-07-04/2026-07-20,2026-07-26/2026-08-24",
       "blockedRanges": 2
     },
     {
@@ -835,7 +835,7 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2",
       "title": "WST-GCH-154af-s — 2 — Hacienda west & D-bay",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -862,7 +862,7 @@
       "compound": "Hacienda west & D-bay",
       "beds": "3  + nany",
       "title": "Wst-hazel-3223 — 3  + nany — Hacienda west & D-bay",
-      "sig": "2026-07-03/2026-07-05",
+      "sig": "2026-07-04/2026-07-05",
       "blockedRanges": 1
     },
     {
@@ -871,8 +871,8 @@
       "compound": "Gaia",
       "beds": "",
       "title": "z-106 — Gaia",
-      "sig": "2026-07-03/2026-07-04",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "z2202",
@@ -880,8 +880,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "z2202 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-07-04,2026-07-17/2026-07-20",
-      "blockedRanges": 2
+      "sig": "2026-07-17/2026-07-20",
+      "blockedRanges": 1
     },
     {
       "slug": "Z27-4",
@@ -898,7 +898,7 @@
       "compound": "Gaia",
       "beds": "3 BEDROOM",
       "title": "Z29-1 — 3 BEDROOM — Gaia",
-      "sig": "2026-07-03/2026-10-02",
+      "sig": "2026-07-04/2026-10-02",
       "blockedRanges": 1
     }
   ]
