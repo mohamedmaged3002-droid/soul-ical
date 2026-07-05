@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-05T15:48:35.782Z",
-  "written": 1,
+  "startedAt": "2026-07-05T17:17:25.389Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -304,7 +304,7 @@
       "code": "CL3-27-g01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-05T15:48:35.806Z"
+  "finishedAt": "2026-07-05T17:17:25.412Z"
 }
