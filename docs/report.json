@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-05T08:32:09.799Z",
-  "written": 1,
+  "startedAt": "2026-07-05T10:52:54.927Z",
+  "written": 8,
   "skipped": [],
   "tabs": [
     {
@@ -93,8 +93,8 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 5,
-      "decision": "unchanged"
+      "ranges": 6,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -108,7 +108,7 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -128,15 +128,15 @@
       "slug": "SA-3A-B01",
       "code": "SA-3A-B01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B02",
       "code": "SA-3A-B02",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "SA-4A-103",
@@ -268,8 +268,8 @@
       "slug": "CL1-34-02",
       "code": "CL1-34-02",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "CL1-37-01",
@@ -289,8 +289,8 @@
       "slug": "CL2-CH8-01",
       "code": "CL2-CH8-01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL3-26-g01",
@@ -402,7 +402,7 @@
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH3-01",
@@ -472,7 +472,7 @@
       "code": "Cl11-CH8A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl11-8a-02",
@@ -492,8 +492,8 @@
       "slug": "cl11-ch13-ag",
       "code": "cl11-ch13-ag",
       "compound": "Foukabay",
-      "ranges": 5,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13-02",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-05T08:32:09.824Z"
+  "finishedAt": "2026-07-05T10:52:54.954Z"
 }
