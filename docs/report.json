@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-05T22:32:13.087Z",
-  "written": 1,
+  "startedAt": "2026-07-05T23:46:10.980Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -192,7 +192,7 @@
       "code": "SA-9B-G01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-49-01-01",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-05T22:32:13.111Z"
+  "finishedAt": "2026-07-05T23:46:11.003Z"
 }
