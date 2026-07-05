@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T10:52:54.954Z",
+  "updatedAt": "2026-07-05T12:20:25.156Z",
   "units": [
     {
       "slug": "A27-6",
@@ -232,8 +232,8 @@
       "compound": "Foukabay",
       "beds": "3 bed  Town",
       "title": "CL1-TW42-3 — 3 bed  Town — Foukabay",
-      "sig": "2026-07-18/2026-07-22,2026-08-09/2026-08-13",
-      "blockedRanges": 2
+      "sig": "2026-07-18/2026-07-22,2026-07-23/2026-08-05,2026-08-09/2026-08-13",
+      "blockedRanges": 3
     },
     {
       "slug": "CL10-11A-G",
