@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-06T21:57:37.914Z",
-  "written": 4,
+  "startedAt": "2026-07-06T23:16:53.634Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -262,7 +262,7 @@
       "code": "ST5-94-G02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-34-02",
@@ -374,7 +374,7 @@
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -437,7 +437,7 @@
       "code": "cl10-12b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL10-14A-G",
@@ -563,7 +563,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-06T21:57:37.938Z"
+  "finishedAt": "2026-07-06T23:16:53.653Z"
 }
