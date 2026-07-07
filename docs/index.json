@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T17:33:31.227Z",
+  "updatedAt": "2026-07-07T19:25:43.935Z",
   "units": [
     {
       "slug": "A27-6",
@@ -819,6 +819,15 @@
       "title": "ST5-CH79-01-01 — 3 bed — Foukabay",
       "sig": "2026-07-07/2026-07-10,2026-07-19/2026-07-23,2026-07-26/2026-07-31,2026-08-09/2026-08-15",
       "blockedRanges": 4
+    },
+    {
+      "slug": "WST-CAB-21D",
+      "code": "WST-CAB-21D",
+      "compound": "Hacienda west & D-bay",
+      "beds": "",
+      "title": "WST-CAB-21D — Hacienda west & D-bay",
+      "sig": "2026-07-09/2026-07-11",
+      "blockedRanges": 1
     },
     {
       "slug": "Wst-CAB-L138",

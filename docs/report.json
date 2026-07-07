@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-07T17:33:31.200Z",
-  "written": 0,
+  "startedAt": "2026-07-07T19:25:43.909Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -71,7 +71,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 135,
-      "units": 7
+      "units": 8
     },
     {
       "title": "Hacienda west & D-bay prices",
@@ -767,8 +767,15 @@
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
       "decision": "unchanged"
+    },
+    {
+      "slug": "WST-CAB-21D",
+      "code": "WST-CAB-21D",
+      "compound": "Hacienda west & D-bay",
+      "ranges": 1,
+      "decision": "ok"
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-07T17:33:31.227Z"
+  "finishedAt": "2026-07-07T19:25:43.935Z"
 }
