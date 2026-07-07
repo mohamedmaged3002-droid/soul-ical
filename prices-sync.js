@@ -1,24 +1,36 @@
 /**
- * prices-sync.js — Soul nightly price sync.
+ * prices-sync.js — Soul nightly price sync (DUAL-WRITE).
  *
  * Reads the Soul "Soul Availability" Google Sheet's PRICE tabs (the single
- * source of truth for pricing) and writes per-night rates into the Soul
- * Supabase `unit_daily_prices` table for the bookable horizon.
+ * source of truth for pricing) and writes per-night rates into `unit_daily_prices`
+ * on EVERY database where Soul inventory is listed:
+ *
+ *   • Soul website DB  (soulhospitality.co)  — via SOUL_SUPABASE_URL / _KEY
+ *   • BlueKeys DB       (bluekeys.co)          — via SUPABASE_URL / _KEY, and
+ *                                                ONLY units where source='soul'
+ *
+ * Both are optional: the script syncs whichever creds are present (≥1 required),
+ * so a local run with only the BlueKeys creds re-syncs BlueKeys, and CI with both
+ * keeps the two in lockstep. Soul units are dual-listed on both sites — if only
+ * one DB is written the other silently goes stale (see Brain L-041).
  *
  * The sheet stores MONTHLY rates (JUNE/JULY/AUGUST/September columns) per unit,
  * plus a single flat "weekend season" rate for Sokhna. "Blocked"/"block"/blank
- * for a month => that month is unavailable (no rows written => the site renders
- * those nights blocked, per the per-night-truth pricing model).
+ * for a month => that month is unavailable (no rows => the site renders those
+ * nights blocked, per the per-night-truth pricing model).
  *
- * Matching: sheet unit code (column A) -> units.source_code (normalised).
- * Refresh: for every priced unit, delete its horizon rows then insert fresh, so
- * a month that flips to Blocked correctly disappears. PK is (wp_post_id, date).
+ * Matching: sheet unit code (column A) -> units.source_code (normalised), PER DB
+ * (a unit's wp_post_id can differ between the two DBs, so we re-resolve the code
+ * against each target's own units table). PK is (wp_post_id, date).
+ * Refresh: for every matched unit, delete its horizon rows (date >= today) then
+ * insert fresh, so a month that flips to Blocked correctly disappears.
  *
- *   node prices-sync.js            # writes
+ *   node prices-sync.js            # writes every available target
  *   DRY_RUN=1 node prices-sync.js  # parse + report only, no DB writes
  *
- * Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, SOUL_SHEET_ID (+ Google auth
- * as used by src/sheets.js). HORIZON_END optional (default 2026-09-30).
+ * Env: SOUL_SHEET_ID (+ Google auth per src/sheets.js). HORIZON_END optional
+ * (default 2026-09-30). Targets: SOUL_SUPABASE_URL/_KEY and/or
+ * SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY (BlueKeys, filtered to source='soul').
  */
 require('dotenv').config();
 const { createClient } = require('@supabase/supabase-js');
@@ -28,18 +40,35 @@ const { SHEET_ID } = require('./src/config.js');
 const DRY_RUN = process.env.DRY_RUN === '1' || process.env.DRY_RUN === 'true';
 const HORIZON_END = process.env.HORIZON_END || '2026-09-30';
 
-// IMPORTANT: this cron writes guest-facing nightly prices for the STANDALONE
-// Soul website, whose Supabase is SEPARATE from BlueKeys. Use dedicated
-// SOUL_SUPABASE_* creds — NOT soul-ical's shared getSupabase() (which points at
-// BlueKeys for the legacy iCal wiring). Required + no fallback so this can
-// never accidentally write to the BlueKeys database.
-function getSoulSupabase() {
-  const url = process.env.SOUL_SUPABASE_URL;
-  const key = process.env.SOUL_SUPABASE_SERVICE_ROLE_KEY;
-  if (!url || !key) {
-    throw new Error('Set SOUL_SUPABASE_URL and SOUL_SUPABASE_SERVICE_ROLE_KEY (the standalone Soul website DB).');
+const mkClient = (url, key) => createClient(url, key, { auth: { persistSession: false } });
+
+// Build the list of DB write-targets from whatever creds are present.
+//   • Soul     — dedicated SOUL_SUPABASE_* (standalone Soul website). No source
+//                filter (that DB is single-operator).
+//   • BlueKeys — the repo's shared SUPABASE_* (also used by the iCal wiring in
+//                wire.js). ALWAYS filtered to source='soul' so a Soul sheet code
+//                that happens to collide with a birdnest/mynt/ali source_code can
+//                NEVER overwrite a non-Soul unit's prices.
+function getTargets() {
+  const targets = [];
+  if (process.env.SOUL_SUPABASE_URL && process.env.SOUL_SUPABASE_SERVICE_ROLE_KEY) {
+    targets.push({
+      label: 'Soul',
+      sb: mkClient(process.env.SOUL_SUPABASE_URL, process.env.SOUL_SUPABASE_SERVICE_ROLE_KEY),
+      sourceFilter: null,
+    });
   }
-  return createClient(url, key, { auth: { persistSession: false } });
+  if (process.env.SUPABASE_URL && process.env.SUPABASE_SERVICE_ROLE_KEY) {
+    targets.push({
+      label: 'BlueKeys',
+      sb: mkClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY),
+      sourceFilter: 'soul',
+    });
+  }
+  if (!targets.length) {
+    throw new Error('No DB creds. Set SOUL_SUPABASE_URL/_KEY and/or SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY.');
+  }
+  return targets;
 }
 
 // ── helpers ────────────────────────────────────────────────────────────────
@@ -77,31 +106,12 @@ function mapHeader(headerCells) {
   return { monthCol: map, weekendCol };
 }
 
-async function main() {
-  console.log(`Soul price-sync${DRY_RUN ? ' (DRY RUN)' : ''} — sheet ${SHEET_ID}`);
-  const sb = getSoulSupabase();
-
-  // 1) DB unit index: normalised source_code -> {wp, currency, status, code}
-  const { data: units, error: uErr } = await sb
-    .from('units').select('wp_post_id,source_code,price_currency,status')
-    .not('source_code', 'is', null);
-  if (uErr) throw uErr;
-  const byCode = new Map();
-  for (const u of units) {
-    if (!u.source_code) continue;
-    byCode.set(norm(u.source_code), {
-      wp: u.wp_post_id, currency: u.price_currency === 'USD' ? 'USD' : 'EGP', status: u.status, code: u.source_code,
-    });
-  }
-  console.log(`DB units with a code: ${byCode.size}`);
-
-  // 2) Parse price tabs -> per-unit monthly buckets
-  const tabs = await fetchGrid(SHEET_ID);
+// Parse the sheet's guest price tabs -> Map(normCode -> {code,tab,buckets,flat}).
+// DB-agnostic: every price row is kept; each target matches its own units later.
+function parseSheet(tabs) {
   const priceTabs = tabs.filter((t) => /price/i.test(t.title) && !/broker/i.test(t.title));
-  const priced = new Map(); // wp -> { currency, code, buckets:{5,6,7,8}, flat }
-  const unmatched = new Set();
+  const pricedByCode = new Map();
   let sheetRows = 0;
-
   for (const tab of priceTabs) {
     const hr = tab.rows.findIndex((r) => r.slice(0, 18).some((c) => /july|weekend\s*season/i.test(c.text || '')));
     if (hr < 0) { console.log(`  ! ${tab.title}: no header row, skipped`); continue; }
@@ -109,68 +119,89 @@ async function main() {
     for (const row of tab.rows.slice(hr + 1)) {
       const code = String(row[0]?.text || '').trim();
       if (!code || /^-+$/.test(code)) continue;
-      const hit = byCode.get(norm(code));
       sheetRows++;
-      if (!hit) { unmatched.add(`${tab.title}:${code}`); continue; }
+      const nc = norm(code);
+      if (pricedByCode.has(nc)) continue; // first tab wins per code
       const buckets = {}; let flat = null;
       for (const m of [5, 6, 7, 8]) if (monthCol[m] != null) buckets[m] = parsePrice(row[monthCol[m]]?.text);
       if (weekendCol != null) flat = parsePrice(row[weekendCol]?.text);
-      // first tab wins per wp (a unit shouldn't appear in two guest price tabs)
-      if (!priced.has(hit.wp)) priced.set(hit.wp, { currency: hit.currency, code: hit.code, tab: tab.title, buckets, flat });
+      pricedByCode.set(nc, { code, tab: tab.title, buckets, flat });
     }
   }
+  return { pricedByCode, sheetRows, priceTabs };
+}
 
-  // 3) Expand monthly buckets -> nightly rows over the horizon
-  const start = new Date(); start.setHours(0, 0, 0, 0);
-  const end = new Date(`${HORIZON_END}T00:00:00`);
-  const rowsByWp = new Map();
-  let blockedMonths = 0, pricedUnits = 0;
-  for (const [wp, info] of priced) {
+// Expand the parsed buckets into nightly rows and refresh one target DB.
+async function syncToDb(target, pricedByCode, start, end) {
+  const { sb, label, sourceFilter } = target;
+
+  // 1) This DB's code -> {wp,currency} index (optionally scoped to one source).
+  let q = sb.from('units').select('wp_post_id,source_code,price_currency,status,source').not('source_code', 'is', null);
+  if (sourceFilter) q = q.eq('source', sourceFilter);
+  const { data: units, error: uErr } = await q;
+  if (uErr) throw new Error(`[${label}] units query: ${uErr.message}`);
+  const byCode = new Map();
+  for (const u of units) {
+    byCode.set(norm(u.source_code), { wp: u.wp_post_id, currency: u.price_currency === 'USD' ? 'USD' : 'EGP' });
+  }
+
+  // 2) For every sheet code this DB has a unit for, expand nightly rows.
+  const matched = []; // { wp, code, rows }
+  for (const [nc, info] of pricedByCode) {
+    const hit = byCode.get(nc);
+    if (!hit) continue;
     const rows = [];
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       const m = d.getMonth();
       const price = info.flat != null ? info.flat : (info.buckets[m] ?? null);
       if (price == null) continue;
-      rows.push({ wp_post_id: wp, date: iso(d), price, currency: info.currency, source: 'soul-sheet' });
+      rows.push({ wp_post_id: hit.wp, date: iso(d), price, currency: hit.currency, source: 'soul-sheet' });
     }
-    if (rows.length) { rowsByWp.set(wp, rows); pricedUnits++; }
-    // count blocked months for reporting
-    if (info.flat == null) for (const m of [6, 7, 8]) if (info.buckets[m] === null || info.buckets[m] == null) blockedMonths++;
+    matched.push({ wp: hit.wp, code: info.code, rows });
   }
+  const totalRows = matched.reduce((s, m) => s + m.rows.length, 0);
+  console.log(`[${label}] units_in_db=${byCode.size} matched_to_sheet=${matched.length} nightly_rows=${totalRows}`);
+  const sample = matched.slice(0, 3).map((m) => `${m.code}(wp ${m.wp}, ${m.rows.length}d)`).join(', ');
+  if (sample) console.log(`[${label}] sample: ${sample}`);
 
-  const totalRows = [...rowsByWp.values()].reduce((s, r) => s + r.length, 0);
-  console.log(`\nPrice tabs parsed: ${priceTabs.map((t) => t.title).join(', ')}`);
-  console.log(`Sheet price rows seen: ${sheetRows} | matched units: ${priced.size} | with ≥1 priced night: ${pricedUnits}`);
-  console.log(`Nightly rows to write: ${totalRows} (horizon ${iso(start)} … ${HORIZON_END})`);
-  console.log(`Unmatched sheet codes (${unmatched.size}): ${[...unmatched].slice(0, 40).join(', ')}${unmatched.size > 40 ? ' …' : ''}`);
+  if (DRY_RUN) return { label, matched: matched.length, rows: totalRows, wrote: 0, failed: 0 };
 
-  // sample: 3 units, show a July + Aug + Sep price
-  const sample = [...priced.entries()].slice(0, 4);
-  console.log('\nSample (unit -> July/Aug/Sep nightly):');
-  for (const [wp, info] of sample) {
-    const g = (m) => info.flat != null ? `${info.flat} (flat)` : (info.buckets[m] ?? 'BLOCKED');
-    console.log(`  wp ${wp} ${info.code} [${info.tab}] -> Jul ${g(6)} | Aug ${g(7)} | Sep ${g(8)} ${info.currency}`);
-  }
-
-  if (DRY_RUN) { console.log('\nDRY RUN — no DB writes.'); return; }
-
-  // 4) Refresh: for EVERY matched unit delete its horizon rows (so a unit that
-  // flipped to fully-Blocked is cleared), then insert fresh for the priced ones.
+  // 3) Refresh: delete future rows for every matched unit (so a now-blocked
+  //    month clears), then insert fresh for the priced ones.
   let wrote = 0, failed = 0;
-  for (const wp of priced.keys()) {
-    const { error: delErr } = await sb.from('unit_daily_prices').delete().eq('wp_post_id', wp).gte('date', iso(start));
-    if (delErr) { console.error(`  del wp ${wp}: ${delErr.message}`); failed++; continue; }
-    const rows = rowsByWp.get(wp);
-    if (!rows) continue; // fully blocked over the horizon — cleared, nothing to insert
+  for (const m of matched) {
+    const { error: delErr } = await sb.from('unit_daily_prices').delete().eq('wp_post_id', m.wp).gte('date', iso(start));
+    if (delErr) { console.error(`  [${label}] del wp ${m.wp}: ${delErr.message}`); failed++; continue; }
+    if (!m.rows.length) continue; // matched but fully blocked over the horizon — cleared
     let ok = true;
-    for (const c of chunk(rows, 500)) {
+    for (const c of chunk(m.rows, 500)) {
       const { error } = await sb.from('unit_daily_prices').insert(c);
-      if (error) { console.error(`  ins wp ${wp}: ${error.message}`); ok = false; break; }
+      if (error) { console.error(`  [${label}] ins wp ${m.wp}: ${error.message}`); ok = false; break; }
     }
-    if (ok) wrote++; else failed++;
+    ok ? wrote++ : failed++;
   }
-  console.log(`\nDONE. units_written=${wrote} failed=${failed} rows=${totalRows}`);
-  if (failed) process.exit(1);
+  console.log(`[${label}] DONE units_written=${wrote} failed=${failed}`);
+  return { label, matched: matched.length, rows: totalRows, wrote, failed };
+}
+
+async function main() {
+  const targets = getTargets();
+  console.log(`Soul price-sync${DRY_RUN ? ' (DRY RUN)' : ''} — sheet ${SHEET_ID} — targets: ${targets.map((t) => t.label).join(', ')}`);
+
+  const tabs = await fetchGrid(SHEET_ID);
+  const { pricedByCode, sheetRows, priceTabs } = parseSheet(tabs);
+  console.log(`Price tabs: ${priceTabs.map((t) => t.title).join(', ')}`);
+  console.log(`Sheet price rows: ${sheetRows} | unique codes: ${pricedByCode.size} | horizon ${HORIZON_END}`);
+
+  const start = new Date(); start.setHours(0, 0, 0, 0);
+  const end = new Date(`${HORIZON_END}T00:00:00`);
+
+  let anyFailed = 0;
+  for (const t of targets) {
+    const r = await syncToDb(t, pricedByCode, start, end);
+    anyFailed += r.failed;
+  }
+  if (anyFailed) process.exit(1);
 }
 
 main().catch((e) => { console.error('FATAL', e); process.exit(1); });

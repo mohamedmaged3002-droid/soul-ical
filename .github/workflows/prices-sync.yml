@@ -37,11 +37,16 @@ jobs:
           GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
           GOOGLE_OAUTH_REFRESH_TOKEN: ${{ secrets.GOOGLE_OAUTH_REFRESH_TOKEN }}
           SOUL_SHEET_ID: ${{ secrets.SOUL_SHEET_ID }}
-          # Write target = the STANDALONE Soul website DB (NOT BlueKeys). These
-          # are dedicated secrets — the repo's SUPABASE_URL/KEY point at BlueKeys
-          # for the legacy iCal wiring, so prices must never use them. Add
-          # SOUL_SUPABASE_URL + SOUL_SUPABASE_SERVICE_ROLE_KEY as repo secrets.
+          # DUAL-WRITE: Soul units are listed on BOTH the standalone Soul website
+          # AND bluekeys.co, so we must write both DBs or one silently goes stale
+          # (Brain L-041). prices-sync.js syncs every target whose creds are set.
+          #  • Soul website DB — dedicated SOUL_SUPABASE_* secrets.
           SOUL_SUPABASE_URL: ${{ secrets.SOUL_SUPABASE_URL }}
           SOUL_SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SOUL_SUPABASE_SERVICE_ROLE_KEY }}
+          #  • BlueKeys DB — the repo's shared SUPABASE_* (also used by the iCal
+          #    wiring in sync.yml). The script filters these writes to source='soul',
+          #    so a colliding non-Soul source_code can never be overwritten.
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '' }}
         run: node prices-sync.js
