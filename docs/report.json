@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-07T08:56:03.101Z",
-  "written": 2,
+  "startedAt": "2026-07-07T12:01:03.259Z",
+  "written": 6,
   "skipped": [],
   "tabs": [
     {
@@ -107,8 +107,8 @@
       "slug": "F1-V20",
       "code": "F1-V20",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -191,8 +191,8 @@
       "slug": "SA-9B-G01",
       "code": "SA-9B-G01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "ST5-49-01-01",
@@ -226,8 +226,8 @@
       "slug": "ST5-86-01-02",
       "code": "ST5-86-01-02",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "ST5-87-02-01",
@@ -332,7 +332,7 @@
       "code": "CL4-19-G01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-19-02",
@@ -464,8 +464,8 @@
       "slug": "CL10-21B-03",
       "code": "CL10-21B-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-CH8A-G",
@@ -493,7 +493,7 @@
       "code": "cl11-ch13-ag",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13-02",
@@ -534,8 +534,8 @@
       "slug": "Cl11-18b-G",
       "code": "Cl11-18b-G",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "CL11-20A-01",
@@ -549,7 +549,7 @@
       "code": "CL11-21-BG",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z27-4",
@@ -770,5 +770,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-07T08:56:03.124Z"
+  "finishedAt": "2026-07-07T12:01:03.285Z"
 }
