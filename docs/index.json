@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T19:25:43.935Z",
+  "updatedAt": "2026-07-07T21:08:38.188Z",
   "units": [
     {
       "slug": "A27-6",
@@ -853,8 +853,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "3",
       "title": "Wst-haz-3614 — 3 — Hacienda west & D-bay",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-15/2026-07-19",
+      "blockedRanges": 1
     },
     {
       "slug": "Wst-HAZ-3806",
@@ -871,7 +871,7 @@
       "compound": "Hacienda west & D-bay",
       "beds": "3  + nany",
       "title": "Wst-hazel-3223 — 3  + nany — Hacienda west & D-bay",
-      "sig": "2026-07-15/2026-07-19",
+      "sig": "2026-07-12/2026-08-20",
       "blockedRanges": 1
     },
     {
