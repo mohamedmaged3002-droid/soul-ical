@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-08T14:26:34.000Z",
+  "startedAt": "2026-07-08T16:15:25.657Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -556,7 +556,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -584,7 +584,7 @@
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "R16-3",
@@ -737,8 +737,8 @@
       "slug": "B1-c2b",
       "code": "B1-c2b",
       "compound": "Hacienda west & D-bay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -773,9 +773,9 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-08T14:26:34.025Z"
+  "finishedAt": "2026-07-08T16:15:25.684Z"
 }
