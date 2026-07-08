@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T11:51:44.100Z",
+  "updatedAt": "2026-07-08T14:26:34.025Z",
   "units": [
     {
       "slug": "A27-6",
@@ -43,8 +43,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "B-65 — 2 BEDROOM — Gaia",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-08/2026-07-11",
+      "blockedRanges": 1
     },
     {
       "slug": "B-CH20-02-04",
@@ -878,8 +878,8 @@
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "beds": "",
-      "title": "z-106 — Gaia",
+      "beds": "3",
+      "title": "z-106 — 3 — Gaia",
       "sig": "2026-07-30/2026-08-02,2026-08-09/2026-08-12",
       "blockedRanges": 2
     },
@@ -898,8 +898,8 @@
       "compound": "Gaia",
       "beds": "3",
       "title": "Z27-4 — 3 — Gaia",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-08-09/2026-08-12",
+      "blockedRanges": 1
     },
     {
       "slug": "Z29-1",
