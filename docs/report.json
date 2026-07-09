@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-09T20:21:49.277Z",
+  "startedAt": "2026-07-09T22:01:14.442Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -205,8 +205,8 @@
       "slug": "ST5-CH79-01-01",
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "ST5-85-G01",
@@ -261,8 +261,8 @@
       "slug": "ST5-94-G02",
       "code": "ST5-94-G02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL1-34-02",
@@ -633,7 +633,7 @@
       "code": "TH-213",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B3-CH75-G01",
@@ -703,7 +703,7 @@
       "code": "B3-CH18-G01",
       "compound": "Sokhna",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "c1-CH20-02-02",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-09T20:21:49.303Z"
+  "finishedAt": "2026-07-09T22:01:14.469Z"
 }
