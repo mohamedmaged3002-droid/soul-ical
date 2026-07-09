@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-09T13:37:51.770Z",
-  "written": 6,
+  "startedAt": "2026-07-09T16:16:38.025Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -101,7 +101,7 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
@@ -149,8 +149,8 @@
       "slug": "SA-4B-102",
       "code": "SA-4B-102",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-4B-104",
@@ -164,14 +164,14 @@
       "code": "SA-6b-G03",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-8A-201",
       "code": "SA-8A-201",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-8A-203",
@@ -199,7 +199,7 @@
       "code": "ST5-49-01-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-CH79-01-01",
@@ -213,7 +213,7 @@
       "code": "ST5-85-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-86-01-01",
@@ -262,7 +262,7 @@
       "code": "ST5-94-G02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-34-02",
@@ -506,15 +506,15 @@
       "slug": "cl11-ch13-02",
       "code": "cl11-ch13-02",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13a-03",
       "code": "cl11-ch13a-03",
       "compound": "Foukabay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL11-15A-03",
@@ -563,7 +563,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -784,5 +784,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-09T13:37:51.797Z"
+  "finishedAt": "2026-07-09T16:16:38.045Z"
 }
