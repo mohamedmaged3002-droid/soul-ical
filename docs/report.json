@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-09T07:46:34.951Z",
-  "written": 0,
+  "startedAt": "2026-07-09T10:50:43.062Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -29,7 +29,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 135,
-      "units": 67
+      "units": 68
     },
     {
       "title": "Gaia prices",
@@ -206,7 +206,7 @@
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-85-G01",
@@ -417,6 +417,13 @@
       "compound": "Foukabay",
       "ranges": 0,
       "decision": "unchanged"
+    },
+    {
+      "slug": "Cl9-ch17-02",
+      "code": "Cl9-ch17-02",
+      "compound": "Foukabay",
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL10-11A-G",
@@ -777,5 +784,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-09T07:46:34.976Z"
+  "finishedAt": "2026-07-09T10:50:43.088Z"
 }
