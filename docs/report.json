@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-09T18:18:04.787Z",
+  "startedAt": "2026-07-09T20:21:49.277Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -50,7 +50,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 275,
-      "units": 14
+      "units": 15
     },
     {
       "title": "Sokhna prices",
@@ -199,7 +199,7 @@
       "code": "ST5-49-01-01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-CH79-01-01",
@@ -346,7 +346,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch22-03",
@@ -629,6 +629,13 @@
       "decision": "unchanged"
     },
     {
+      "slug": "TH-213",
+      "code": "TH-213",
+      "compound": "Sokhna",
+      "ranges": 0,
+      "decision": "ok"
+    },
+    {
       "slug": "B3-CH75-G01",
       "code": "B3-CH75-G01",
       "compound": "Sokhna",
@@ -638,27 +645,6 @@
     {
       "slug": "B3-CH75-02-02",
       "code": "B3-CH75-02-02",
-      "compound": "Sokhna",
-      "ranges": 0,
-      "decision": "unchanged"
-    },
-    {
-      "slug": "B2-ch40-01-02",
-      "code": "B2-ch40-01-02",
-      "compound": "Sokhna",
-      "ranges": 0,
-      "decision": "unchanged"
-    },
-    {
-      "slug": "c2-ch28-02-01",
-      "code": "c2-ch28-02-01",
-      "compound": "Sokhna",
-      "ranges": 1,
-      "decision": "unchanged"
-    },
-    {
-      "slug": "C3-CH1-01-01",
-      "code": "C3-CH1-01-01",
       "compound": "Sokhna",
       "ranges": 0,
       "decision": "unchanged"
@@ -678,15 +664,15 @@
       "decision": "unchanged"
     },
     {
-      "slug": "b3-ch84-02-01",
-      "code": "b3-ch84-02-01",
+      "slug": "C3-CH1-01-01",
+      "code": "C3-CH1-01-01",
       "compound": "Sokhna",
-      "ranges": 1,
+      "ranges": 0,
       "decision": "unchanged"
     },
     {
-      "slug": "B3-CH18-G01",
-      "code": "B3-CH18-G01",
+      "slug": "c2-ch28-02-01",
+      "code": "c2-ch28-02-01",
       "compound": "Sokhna",
       "ranges": 1,
       "decision": "unchanged"
@@ -697,6 +683,27 @@
       "compound": "Sokhna",
       "ranges": 0,
       "decision": "unchanged"
+    },
+    {
+      "slug": "B2-ch40-01-02",
+      "code": "B2-ch40-01-02",
+      "compound": "Sokhna",
+      "ranges": 0,
+      "decision": "unchanged"
+    },
+    {
+      "slug": "b3-ch84-02-01",
+      "code": "b3-ch84-02-01",
+      "compound": "Sokhna",
+      "ranges": 1,
+      "decision": "unchanged"
+    },
+    {
+      "slug": "B3-CH18-G01",
+      "code": "B3-CH18-G01",
+      "compound": "Sokhna",
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "c1-CH20-02-02",
@@ -784,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-09T18:18:04.814Z"
+  "finishedAt": "2026-07-09T20:21:49.303Z"
 }
