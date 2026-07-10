@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-10T20:27:28.038Z",
-  "written": 2,
+  "startedAt": "2026-07-10T21:37:00.003Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -136,7 +136,7 @@
       "code": "SA-3A-B02",
       "compound": "Foukabay",
       "ranges": 6,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-4A-103",
@@ -276,7 +276,7 @@
       "code": "CL1-37-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-TW42-3",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-10T20:27:28.065Z"
+  "finishedAt": "2026-07-10T21:37:00.028Z"
 }
