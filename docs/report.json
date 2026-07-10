@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-10T17:00:53.369Z",
-  "written": 5,
+  "startedAt": "2026-07-10T18:46:25.159Z",
+  "written": 6,
   "skipped": [],
   "tabs": [
     {
@@ -128,7 +128,7 @@
       "slug": "SA-3A-B01",
       "code": "SA-3A-B01",
       "compound": "Foukabay",
-      "ranges": 4,
+      "ranges": 5,
       "decision": "ok"
     },
     {
@@ -156,7 +156,7 @@
       "slug": "SA-4B-104",
       "code": "SA-4B-104",
       "compound": "Foukabay",
-      "ranges": 4,
+      "ranges": 5,
       "decision": "ok"
     },
     {
@@ -170,7 +170,7 @@
       "slug": "SA-8A-201",
       "code": "SA-8A-201",
       "compound": "Foukabay",
-      "ranges": 3,
+      "ranges": 4,
       "decision": "ok"
     },
     {
@@ -268,7 +268,7 @@
       "slug": "CL1-34-02",
       "code": "CL1-34-02",
       "compound": "Foukabay",
-      "ranges": 1,
+      "ranges": 2,
       "decision": "ok"
     },
     {
@@ -360,7 +360,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch33-03",
@@ -373,8 +373,8 @@
       "slug": "cl4-ch31-03",
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -765,8 +765,8 @@
       "slug": "Wst-haz-3614",
       "code": "Wst-haz-3614",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L138",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-10T17:00:53.395Z"
+  "finishedAt": "2026-07-10T18:46:25.187Z"
 }
