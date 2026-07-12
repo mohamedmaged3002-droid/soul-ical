@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-12T21:58:46.521Z",
-  "written": 0,
+  "startedAt": "2026-07-12T23:00:22.647Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -359,8 +359,8 @@
       "slug": "CL4-CH29-02",
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-12T21:58:46.546Z"
+  "finishedAt": "2026-07-12T23:00:22.668Z"
 }
