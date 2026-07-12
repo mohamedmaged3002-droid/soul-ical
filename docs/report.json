@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-12T08:55:36.714Z",
-  "written": 2,
+  "startedAt": "2026-07-12T10:38:29.266Z",
+  "written": 6,
   "skipped": [],
   "tabs": [
     {
@@ -206,7 +206,7 @@
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-85-G01",
@@ -247,8 +247,8 @@
       "slug": "st5-89-02-02",
       "code": "st5-89-02-02",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "ST5-93-02-02",
@@ -289,8 +289,8 @@
       "slug": "CL2-CH8-01",
       "code": "CL2-CH8-01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL3-26-g01",
@@ -311,7 +311,7 @@
       "code": "Cl3-TW4-AX",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-16-02",
@@ -324,8 +324,8 @@
       "slug": "CL4-16-03",
       "code": "CL4-16-03",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL4-19-G01",
@@ -402,7 +402,7 @@
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH3-01",
@@ -451,7 +451,7 @@
       "code": "CL10-14A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-ch13b-02",
@@ -499,8 +499,8 @@
       "slug": "cl11-ch13-ag",
       "code": "cl11-ch13-ag",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13-02",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-12T08:55:36.734Z"
+  "finishedAt": "2026-07-12T10:38:29.288Z"
 }
