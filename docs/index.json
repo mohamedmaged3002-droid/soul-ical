@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T13:08:23.925Z",
+  "updatedAt": "2026-07-13T15:58:35.979Z",
   "units": [
     {
       "slug": "A27-6",
@@ -367,7 +367,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl11-ch13-02 — 3 bed — Foukabay",
-      "sig": "2026-07-22/2026-07-25,2026-07-31/2026-08-04",
+      "sig": "2026-07-22/2026-07-30,2026-07-31/2026-08-04",
       "blockedRanges": 2
     },
     {
@@ -826,8 +826,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-CH79-01-01 — 3 bed — Foukabay",
-      "sig": "2026-07-13/2026-07-17,2026-07-19/2026-07-23,2026-07-26/2026-08-04,2026-08-09/2026-08-15",
-      "blockedRanges": 4
+      "sig": "2026-07-13/2026-07-17,2026-07-19/2026-08-04,2026-08-09/2026-08-15",
+      "blockedRanges": 3
     },
     {
       "slug": "TH-213",
@@ -857,13 +857,22 @@
       "blockedRanges": 0
     },
     {
+      "slug": "Wst-CAB-L240",
+      "code": "Wst-CAB-L240",
+      "compound": "Hacienda west & D-bay",
+      "beds": "capin",
+      "title": "Wst-CAB-L240 — capin — Hacienda west & D-bay",
+      "sig": "2026-07-23/2026-07-27",
+      "blockedRanges": 1
+    },
+    {
       "slug": "WST-GCH-154af-s",
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "beds": "2",
       "title": "WST-GCH-154af-s — 2 — Hacienda west & D-bay",
-      "sig": "2026-07-30/2026-08-01",
-      "blockedRanges": 1
+      "sig": "2026-07-23/2026-07-27,2026-07-30/2026-08-01",
+      "blockedRanges": 2
     },
     {
       "slug": "Wst-haz-3614",
