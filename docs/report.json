@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-14T18:41:04.498Z",
+  "startedAt": "2026-07-14T19:57:26.886Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -108,7 +108,7 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-1B-05",
@@ -283,7 +283,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-TW42-3",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-14T18:41:04.517Z"
+  "finishedAt": "2026-07-14T19:57:26.906Z"
 }
