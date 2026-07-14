@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-14T08:23:49.017Z",
-  "written": 0,
+  "startedAt": "2026-07-14T10:18:30.682Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -220,7 +220,7 @@
       "code": "ST5-86-01-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-86-01-02",
@@ -240,8 +240,8 @@
       "slug": "st5-89-01-01",
       "code": "st5-89-01-01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "st5-89-02-02",
@@ -360,7 +360,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
@@ -520,8 +520,8 @@
       "slug": "CL11-15A-03",
       "code": "CL11-15A-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL11-16B-02",
@@ -791,5 +791,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-14T08:23:49.036Z"
+  "finishedAt": "2026-07-14T10:18:30.708Z"
 }
