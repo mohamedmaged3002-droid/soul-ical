@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T18:39:18.896Z",
+  "updatedAt": "2026-07-15T19:53:10.647Z",
   "units": [
     {
       "slug": "A27-6",
@@ -637,8 +637,8 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany",
       "title": "F1-V20 — 4 bed stand alone + nany — Foukabay",
-      "sig": "2026-07-16/2026-07-20,2026-07-25/2026-07-29,2026-08-14/2026-08-24",
-      "blockedRanges": 3
+      "sig": "2026-07-16/2026-07-20,2026-07-25/2026-07-29,2026-08-03/2026-08-08,2026-08-14/2026-08-24",
+      "blockedRanges": 4
     },
     {
       "slug": "R16-3",
