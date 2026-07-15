@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-15T08:31:35.100Z",
-  "written": 0,
+  "startedAt": "2026-07-15T10:29:32.427Z",
+  "written": 5,
   "skipped": [],
   "tabs": [
     {
@@ -107,8 +107,8 @@
       "slug": "F1-V20",
       "code": "F1-V20",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -401,8 +401,8 @@
       "slug": "CL7-CH18-01",
       "code": "CL7-CH18-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-02",
@@ -415,8 +415,8 @@
       "slug": "CL7-CH3-01",
       "code": "CL7-CH3-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Cl9-ch24-02",
@@ -576,8 +576,8 @@
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "A61-4",
@@ -611,8 +611,8 @@
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "A72-4",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-15T08:31:35.120Z"
+  "finishedAt": "2026-07-15T10:29:32.453Z"
 }
