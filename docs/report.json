@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-15T21:04:39.026Z",
-  "written": 2,
+  "startedAt": "2026-07-15T22:14:25.538Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -94,7 +94,7 @@
       "code": "CL8-V8",
       "compound": "Foukabay",
       "ranges": 6,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V11",
@@ -513,7 +513,7 @@
       "slug": "cl11-ch13a-03",
       "code": "cl11-ch13a-03",
       "compound": "Foukabay",
-      "ranges": 1,
+      "ranges": 2,
       "decision": "ok"
     },
     {
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-15T21:04:39.054Z"
+  "finishedAt": "2026-07-15T22:14:25.558Z"
 }
