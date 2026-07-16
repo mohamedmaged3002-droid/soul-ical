@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-16T19:23:19.252Z",
-  "written": 4,
+  "startedAt": "2026-07-16T20:27:48.866Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -115,7 +115,7 @@
       "code": "SA-1B-05",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-2B-01",
@@ -157,7 +157,7 @@
       "code": "SA-4B-104",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-6b-G03",
@@ -667,7 +667,7 @@
       "slug": "Ch24-G01",
       "code": "Ch24-G01",
       "compound": "Sokhna",
-      "ranges": 1,
+      "ranges": 2,
       "decision": "ok"
     },
     {
@@ -745,7 +745,7 @@
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-16T19:23:19.275Z"
+  "finishedAt": "2026-07-16T20:27:48.892Z"
 }
