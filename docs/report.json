@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-16T20:27:48.866Z",
-  "written": 1,
+  "startedAt": "2026-07-16T21:37:16.480Z",
+  "written": 5,
   "skipped": [],
   "tabs": [
     {
@@ -380,8 +380,8 @@
       "slug": "cl4-ch31-03",
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -444,7 +444,7 @@
       "code": "cl10-12b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-14A-G",
@@ -457,8 +457,8 @@
       "slug": "cl10-ch13b-02",
       "code": "cl10-ch13b-02",
       "compound": "Foukabay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL10-15A-03",
@@ -597,8 +597,8 @@
       "slug": "B-65",
       "code": "B-65",
       "compound": "Gaia",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "R16-3",
@@ -668,7 +668,7 @@
       "code": "Ch24-G01",
       "compound": "Sokhna",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "C3-CH1-01-01",
@@ -772,8 +772,8 @@
       "slug": "Wst-haz-3614",
       "code": "Wst-haz-3614",
       "compound": "Hacienda west & D-bay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-16T20:27:48.892Z"
+  "finishedAt": "2026-07-16T21:37:16.507Z"
 }
