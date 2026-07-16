@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-16T11:20:00.773Z",
-  "written": 2,
+  "startedAt": "2026-07-16T13:02:14.017Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -556,7 +556,7 @@
       "code": "CL11-20A-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-21-BG",
@@ -577,7 +577,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-16T11:20:00.799Z"
+  "finishedAt": "2026-07-16T13:02:14.043Z"
 }
