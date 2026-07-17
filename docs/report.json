@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-17T15:57:12.684Z",
-  "written": 7,
+  "startedAt": "2026-07-17T17:19:15.168Z",
+  "written": 5,
   "skipped": [],
   "tabs": [
     {
@@ -185,7 +185,7 @@
       "code": "SA-8B-203",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-9B-G01",
@@ -247,14 +247,14 @@
       "slug": "st5-89-02-02",
       "code": "st5-89-02-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "ST5-93-02-02",
       "code": "ST5-93-02-02",
       "compound": "Foukabay",
-      "ranges": 2,
+      "ranges": 1,
       "decision": "ok"
     },
     {
@@ -283,7 +283,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-TW42-3",
@@ -331,15 +331,15 @@
       "slug": "CL4-16-03",
       "code": "CL4-16-03",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "CL4-19-G01",
       "code": "CL4-19-G01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-19-02",
@@ -353,7 +353,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch22-03",
@@ -381,7 +381,7 @@
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -514,7 +514,7 @@
       "code": "cl11-ch13a-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL11-15A-03",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-17T15:57:12.706Z"
+  "finishedAt": "2026-07-17T17:19:15.194Z"
 }
