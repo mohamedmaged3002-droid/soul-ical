@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-17T11:06:22.344Z",
-  "written": 0,
+  "startedAt": "2026-07-17T12:37:03.842Z",
+  "written": 4,
   "skipped": [],
   "tabs": [
     {
@@ -60,18 +60,18 @@
       "units": 15
     },
     {
-      "title": "Sokhna pricess broker",
-      "ok": false,
-      "reason": "hidden-tab",
-      "dateRows": 0,
-      "units": 0
-    },
-    {
       "title": "Hacienda west & D-bay availabilty",
       "ok": true,
       "reason": null,
       "dateRows": 135,
       "units": 8
+    },
+    {
+      "title": "Sokhna pricess broker",
+      "ok": false,
+      "reason": "hidden-tab",
+      "dateRows": 0,
+      "units": 0
     },
     {
       "title": "Hacienda west & D-bay prices",
@@ -93,8 +93,8 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 6,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -332,7 +332,7 @@
       "code": "CL4-16-03",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-19-G01",
@@ -367,7 +367,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
@@ -451,7 +451,7 @@
       "code": "CL10-14A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-ch13b-02",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-17T11:06:22.369Z"
+  "finishedAt": "2026-07-17T12:37:03.867Z"
 }
