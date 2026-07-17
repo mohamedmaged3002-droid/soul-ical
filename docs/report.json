@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-16T23:39:41.867Z",
-  "written": 2,
+  "startedAt": "2026-07-17T01:13:11.183Z",
+  "written": 59,
   "skipped": [],
   "tabs": [
     {
@@ -87,14 +87,14 @@
       "code": "ST3-V20",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
       "ranges": 6,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -108,56 +108,56 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
       "code": "SA-1B-05",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-2B-01",
       "code": "SA-2B-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B01",
       "code": "SA-3A-B01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B02",
       "code": "SA-3A-B02",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-4A-103",
       "code": "SA-4A-103",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-4B-102",
       "code": "SA-4B-102",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-4B-104",
       "code": "SA-4B-104",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-6b-G03",
@@ -171,28 +171,28 @@
       "code": "SA-8A-201",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-8A-203",
       "code": "SA-8A-203",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-8B-203",
       "code": "SA-8B-203",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-9B-G01",
       "code": "SA-9B-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-49-01-01",
@@ -205,15 +205,15 @@
       "slug": "ST5-CH79-01-01",
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "ST5-85-G01",
       "code": "ST5-85-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-86-01-01",
@@ -227,28 +227,28 @@
       "code": "ST5-86-01-02",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-87-02-01",
       "code": "ST5-87-02-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "st5-89-01-01",
       "code": "st5-89-01-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "st5-89-02-02",
       "code": "st5-89-02-02",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "ST5-93-02-02",
@@ -262,7 +262,7 @@
       "code": "ST5-94-G02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-34-02",
@@ -276,14 +276,14 @@
       "code": "CL1-37-01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-TH11",
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-TW42-3",
@@ -297,21 +297,21 @@
       "code": "CL2-CH8-01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL3-26-g01",
       "code": "CL3-26-g01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL3-27-g01",
       "code": "CL3-27-g01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -339,56 +339,56 @@
       "code": "CL4-19-G01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-19-02",
       "code": "CL4-19-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-20-G01",
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch22-03",
       "code": "cl4-ch22-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-CH29-02",
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
       "code": "cl4-ch33-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch31-03",
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL4-CH34-G01",
       "code": "CL4-CH34-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-01",
@@ -402,7 +402,7 @@
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH3-01",
@@ -422,36 +422,36 @@
       "slug": "Cl9-ch17-02",
       "code": "Cl9-ch17-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL10-11A-G",
       "code": "CL10-11A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-CH11B-02",
       "code": "CL10-CH11B-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-12b-03",
       "code": "cl10-12b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-14A-G",
       "code": "CL10-14A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-ch13b-02",
@@ -472,21 +472,21 @@
       "code": "CL10-21B-03",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl11-CH8A-G",
       "code": "Cl11-CH8A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl11-8a-02",
       "code": "cl11-8a-02",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch9b-02",
@@ -542,7 +542,7 @@
       "code": "Cl11-17A-G",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl11-18b-G",
@@ -556,14 +556,14 @@
       "code": "CL11-20A-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL11-21-BG",
       "code": "CL11-21-BG",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Z27-4",
@@ -584,14 +584,14 @@
       "code": "A61-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "A27-6",
       "code": "A27-6",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B-65",
@@ -619,21 +619,21 @@
       "code": "A72-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Z29-1",
       "code": "Z29-1",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "A29-4",
       "code": "A29-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "TH-213",
@@ -681,8 +681,8 @@
       "slug": "c2-ch28-02-01",
       "code": "c2-ch28-02-01",
       "compound": "Sokhna",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "B1-CH20-02-04",
@@ -703,49 +703,49 @@
       "code": "b3-ch84-02-01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B3-CH18-G01",
       "code": "B3-CH18-G01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "c1-CH20-02-02",
       "code": "c1-CH20-02-02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "C2-ch26-01-03",
       "code": "C2-ch26-01-03",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B2-CH5-G02",
       "code": "B2-CH5-G02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "c2-ch34-01-01",
       "code": "c2-ch34-01-01",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B1-SC-12C",
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B1-SC-12D",
@@ -798,5 +798,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-16T23:39:41.893Z"
+  "finishedAt": "2026-07-17T01:13:11.343Z"
 }
