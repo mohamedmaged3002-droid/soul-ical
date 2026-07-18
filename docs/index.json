@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:53:44.865Z",
+  "updatedAt": "2026-07-18T20:55:51.044Z",
   "units": [
     {
       "slug": "A27-6",
@@ -566,6 +566,15 @@
       "beds": "3Bed 1st floor + garden",
       "title": "CL6-TW7A-F — 3Bed 1st floor + garden — Foukabay",
       "sig": "2026-07-15/2026-10-02",
+      "blockedRanges": 1
+    },
+    {
+      "slug": "CL7-CH13-G01",
+      "code": "CL7-CH13-G01",
+      "compound": "Foukabay",
+      "beds": "3 bed + nany",
+      "title": "CL7-CH13-G01 — 3 bed + nany — Foukabay",
+      "sig": "2026-07-24/2026-07-31",
       "blockedRanges": 1
     },
     {

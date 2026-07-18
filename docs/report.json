@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-18T19:53:44.844Z",
-  "written": 2,
+  "startedAt": "2026-07-18T20:55:51.018Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -22,7 +22,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 135,
-      "units": 69
+      "units": 70
     },
     {
       "title": "Foukabay prices",
@@ -192,7 +192,7 @@
       "code": "SA-9B-G01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-49-01-01",
@@ -389,6 +389,13 @@
       "compound": "Foukabay",
       "ranges": 2,
       "decision": "unchanged"
+    },
+    {
+      "slug": "CL7-CH13-G01",
+      "code": "CL7-CH13-G01",
+      "compound": "Foukabay",
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-01",
@@ -787,7 +794,7 @@
       "code": "Wst-hazel-3223",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-CAB-21D",
@@ -798,5 +805,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-18T19:53:44.865Z"
+  "finishedAt": "2026-07-18T20:55:51.044Z"
 }
