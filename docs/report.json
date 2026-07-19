@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-19T16:28:05.364Z",
-  "written": 1,
+  "startedAt": "2026-07-19T17:34:43.735Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -108,7 +108,7 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-1B-05",
@@ -805,5 +805,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-19T16:28:05.394Z"
+  "finishedAt": "2026-07-19T17:34:43.760Z"
 }
