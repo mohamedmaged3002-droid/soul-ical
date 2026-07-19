@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-19T20:57:46.434Z",
-  "written": 1,
+  "startedAt": "2026-07-19T22:01:38.783Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -220,7 +220,7 @@
       "code": "ST5-86-01-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-86-01-02",
@@ -805,5 +805,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-19T20:57:46.459Z"
+  "finishedAt": "2026-07-19T22:01:38.814Z"
 }
