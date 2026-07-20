@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T12:55:51.938Z",
+  "updatedAt": "2026-07-20T15:16:21.458Z",
   "units": [
     {
       "slug": "A27-6",
@@ -70,8 +70,8 @@
       "compound": "Sokhna",
       "beds": "2 Bedrooms",
       "title": "B1-CH20-02-04 — 2 Bedrooms — Sokhna",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-07-23/2026-07-26",
+      "blockedRanges": 1
     },
     {
       "slug": "B1-SC-12C",
@@ -277,7 +277,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL10-15A-03 — 3 bed — Foukabay",
-      "sig": "2026-07-23/2026-08-31",
+      "sig": "2026-07-24/2026-08-31",
       "blockedRanges": 1
     },
     {
@@ -727,7 +727,7 @@
       "compound": "Foukabay",
       "beds": "2 bed ground",
       "title": "SA-6b-G03 — 2 bed ground — Foukabay",
-      "sig": "2026-07-20/2026-08-17,2026-08-22/2026-08-28,2026-09-01/2026-09-04",
+      "sig": "2026-07-20/2026-08-18,2026-08-22/2026-08-28,2026-09-01/2026-09-04",
       "blockedRanges": 3
     },
     {
