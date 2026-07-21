@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-21T06:33:43.280Z",
+  "startedAt": "2026-07-21T09:16:31.382Z",
   "written": 0,
   "skipped": [],
   "tabs": [
@@ -67,16 +67,23 @@
       "units": 8
     },
     {
-      "title": "Sokhna pricess broker",
+      "title": "Hacienda west & D-bay prices",
       "ok": false,
-      "reason": "hidden-tab",
+      "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
     },
     {
-      "title": "Hacienda west & D-bay prices",
+      "title": "Sheet22",
       "ok": false,
-      "reason": "prices-tab",
+      "reason": "no-date-rows",
+      "dateRows": 0,
+      "units": 0
+    },
+    {
+      "title": "Sokhna pricess broker",
+      "ok": false,
+      "reason": "hidden-tab",
       "dateRows": 0,
       "units": 0
     }
@@ -805,5 +812,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-21T06:33:43.300Z"
+  "finishedAt": "2026-07-21T09:16:31.407Z"
 }
