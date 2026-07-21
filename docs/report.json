@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-21T15:09:14.743Z",
-  "written": 4,
+  "startedAt": "2026-07-21T16:43:21.608Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -240,8 +240,8 @@
       "slug": "ST5-87-02-01",
       "code": "ST5-87-02-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "st5-89-01-01",
@@ -290,7 +290,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-TW42-3",
@@ -311,14 +311,14 @@
       "code": "CL3-26-g01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL3-27-g01",
       "code": "CL3-27-g01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -584,7 +584,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -668,7 +668,7 @@
       "code": "B3-CH75-02-02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "C2-CH19-G01",
@@ -812,5 +812,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-21T15:09:14.858Z"
+  "finishedAt": "2026-07-21T16:43:21.635Z"
 }
