@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-21T18:01:32.623Z",
+  "startedAt": "2026-07-21T19:52:38.374Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -32,18 +32,18 @@
       "units": 0
     },
     {
-      "title": "Gaia availability",
-      "ok": true,
-      "reason": null,
-      "dateRows": 135,
-      "units": 10
-    },
-    {
       "title": "Gaia prices",
       "ok": false,
       "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
+    },
+    {
+      "title": "Gaia availability",
+      "ok": true,
+      "reason": null,
+      "dateRows": 135,
+      "units": 10
     },
     {
       "title": "Sokhna prices",
@@ -84,6 +84,13 @@
       "title": "Sokhna pricess broker",
       "ok": false,
       "reason": "hidden-tab",
+      "dateRows": 0,
+      "units": 0
+    },
+    {
+      "title": "Sheet23",
+      "ok": false,
+      "reason": "no-date-rows",
       "dateRows": 0,
       "units": 0
     }
@@ -241,7 +248,7 @@
       "code": "ST5-87-02-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "st5-89-01-01",
@@ -290,7 +297,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL1-TW42-3",
@@ -423,7 +430,7 @@
       "code": "CL7-CH3-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl9-ch24-02",
@@ -780,7 +787,7 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -812,5 +819,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-21T18:01:32.644Z"
+  "finishedAt": "2026-07-21T19:52:38.401Z"
 }
