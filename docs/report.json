@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-22T20:13:54.713Z",
-  "written": 2,
+  "startedAt": "2026-07-22T21:31:54.818Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -395,7 +395,7 @@
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -486,7 +486,7 @@
       "code": "CL10-15A-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL10-21B-03",
@@ -626,7 +626,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "z2202",
@@ -819,5 +819,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-22T20:13:54.739Z"
+  "finishedAt": "2026-07-22T21:31:54.859Z"
 }
