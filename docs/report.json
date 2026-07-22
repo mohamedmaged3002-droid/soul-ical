@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-22T16:01:27.701Z",
-  "written": 3,
+  "startedAt": "2026-07-22T17:42:22.531Z",
+  "written": 5,
   "skipped": [],
   "tabs": [
     {
@@ -107,8 +107,8 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -339,14 +339,14 @@
       "code": "CL4-16-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-16-03",
       "code": "CL4-16-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-19-G01",
@@ -395,7 +395,7 @@
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -499,15 +499,15 @@
       "slug": "Cl11-CH8A-G",
       "code": "Cl11-CH8A-G",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "cl11-8a-02",
       "code": "cl11-8a-02",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch9b-02",
@@ -555,8 +555,8 @@
       "slug": "Cl11-16b-03",
       "code": "Cl11-16b-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-17A-G",
@@ -591,7 +591,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -819,5 +819,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-22T16:01:27.727Z"
+  "finishedAt": "2026-07-22T17:42:22.554Z"
 }
