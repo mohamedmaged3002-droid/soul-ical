@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-23T10:06:00.381Z",
-  "written": 3,
+  "startedAt": "2026-07-23T12:03:23.629Z",
+  "written": 6,
   "skipped": [],
   "tabs": [
     {
@@ -192,7 +192,7 @@
       "code": "SA-8A-203",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-8B-203",
@@ -269,7 +269,7 @@
       "code": "ST5-93-02-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-94-G02",
@@ -394,8 +394,8 @@
       "slug": "cl4-ch31-03",
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -409,14 +409,14 @@
       "code": "CL7-CH13-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH18-01",
       "code": "CL7-CH18-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-02",
@@ -486,7 +486,7 @@
       "code": "CL10-15A-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-21B-03",
@@ -590,15 +590,15 @@
       "slug": "Z27-4",
       "code": "Z27-4",
       "compound": "Gaia",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "A61-4",
@@ -780,7 +780,7 @@
       "code": "B1-c2b",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "WST-CAB-21D",
@@ -819,5 +819,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-23T10:06:00.405Z"
+  "finishedAt": "2026-07-23T12:03:23.660Z"
 }
