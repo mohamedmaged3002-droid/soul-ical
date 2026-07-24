@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T15:45:10.893Z",
+  "updatedAt": "2026-07-24T17:12:13.020Z",
   "units": [
     {
       "slug": "A27-6",
@@ -295,8 +295,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL10-CH11B-02 — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-07-26,2026-07-29/2026-08-04",
-      "blockedRanges": 2
+      "sig": "2026-07-24/2026-07-26,2026-07-29/2026-08-08,2026-08-17/2026-08-23",
+      "blockedRanges": 3
     },
     {
       "slug": "cl10-ch13b-02",
@@ -331,7 +331,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL11-16B-02 — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-08-18",
+      "sig": "2026-07-24/2026-08-27",
       "blockedRanges": 1
     },
     {
@@ -340,8 +340,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "Cl11-16b-03 — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-07-30,2026-07-31/2026-08-05",
-      "blockedRanges": 2
+      "sig": "2026-07-24/2026-07-30,2026-07-31/2026-08-05,2026-08-08/2026-08-12",
+      "blockedRanges": 3
     },
     {
       "slug": "Cl11-17A-G",
@@ -349,8 +349,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "Cl11-17A-G — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-08-01",
-      "blockedRanges": 1
+      "sig": "2026-07-24/2026-08-01,2026-08-08/2026-08-12",
+      "blockedRanges": 2
     },
     {
       "slug": "Cl11-18b-G",
@@ -637,8 +637,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "Cl9-ch24-02 — 3 bed — Foukabay",
-      "sig": "2026-07-25/2026-08-08",
-      "blockedRanges": 1
+      "sig": "2026-07-25/2026-07-31,2026-08-01/2026-09-25",
+      "blockedRanges": 2
     },
     {
       "slug": "F1-V20",
@@ -772,8 +772,8 @@
       "compound": "Foukabay",
       "beds": "2 bed  Ground",
       "title": "SA-9B-G01 — 2 bed  Ground — Foukabay",
-      "sig": "2026-07-24/2026-08-05,2026-08-07/2026-08-11,2026-08-12/2026-08-21",
-      "blockedRanges": 3
+      "sig": "2026-07-24/2026-08-05,2026-08-07/2026-08-11,2026-08-12/2026-08-21,2026-09-01/2026-09-04",
+      "blockedRanges": 4
     },
     {
       "slug": "ST3-V20",
