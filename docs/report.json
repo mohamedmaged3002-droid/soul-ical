@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-24T18:48:53.334Z",
-  "written": 3,
+  "startedAt": "2026-07-24T20:24:08.804Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -107,8 +107,8 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 6,
-      "decision": "unchanged"
+      "ranges": 5,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -122,7 +122,7 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-1B-05",
@@ -143,7 +143,7 @@
       "code": "SA-2b-B03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B01",
@@ -318,7 +318,7 @@
       "code": "CL2-CH8-01",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL3-26-g01",
@@ -471,8 +471,8 @@
       "slug": "cl10-12b-03",
       "code": "cl10-12b-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL10-14A-G",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-24T18:48:53.361Z"
+  "finishedAt": "2026-07-24T20:24:08.825Z"
 }
