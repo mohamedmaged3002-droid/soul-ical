@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-24T13:55:20.388Z",
+  "startedAt": "2026-07-24T15:34:22.086Z",
   "written": 3,
   "skipped": [],
   "tabs": [
@@ -22,7 +22,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 135,
-      "units": 70
+      "units": 71
     },
     {
       "title": "Foukabay prices",
@@ -108,7 +108,7 @@
       "code": "CL8-V8",
       "compound": "Foukabay",
       "ranges": 6,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V11",
@@ -137,6 +137,13 @@
       "compound": "Foukabay",
       "ranges": 1,
       "decision": "unchanged"
+    },
+    {
+      "slug": "SA-2b-B03",
+      "code": "SA-2b-B03",
+      "compound": "Foukabay",
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B01",
@@ -359,8 +366,8 @@
       "slug": "CL4-19-02",
       "code": "CL4-19-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL4-20-G01",
@@ -612,7 +619,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -819,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-24T13:55:20.413Z"
+  "finishedAt": "2026-07-24T15:34:22.104Z"
 }
