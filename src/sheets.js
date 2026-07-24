@@ -18,12 +18,25 @@ function authMode(env = process.env) {
   return 'none';
 }
 
-// Transient network failures worth retrying.
+// Transient network failures worth retrying. HTTP errors carry `.status` (set
+// where they're thrown) — anything 5xx is Google's side, including the plain
+// 500 "Internal error encountered." that sheets.get returns a few times a week,
+// plus 429 rate-limiting. Message sniffing stays as the fallback for socket-
+// level errors, which have no status.
 function isTransient(err) {
   if (!err) return false;
   if (err.code === 'ERR_STREAM_PREMATURE_CLOSE') return true;
+  if (typeof err.status === 'number') return err.status >= 500 || err.status === 429;
   return /premature close|ECONNRESET|ETIMEDOUT|socket hang up|EAI_AGAIN|fetch failed|network|503|429/i
     .test(`${err.code || ''} ${err.message || ''}`);
+}
+
+// Error carrying the HTTP status, so isTransient can decide on the status
+// itself rather than pattern-matching a number out of the response body.
+function httpError(message, status) {
+  const err = new Error(message);
+  err.status = status;
+  return err;
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -81,7 +94,7 @@ async function getAccessToken(env = process.env) {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(body) },
     body,
   });
-  if (status !== 200) throw new Error(`token endpoint ${status}: ${resp.slice(0, 200)}`);
+  if (status !== 200) throw httpError(`token endpoint ${status}: ${resp.slice(0, 200)}`, status);
   const json = JSON.parse(resp);
   if (!json.access_token) throw new Error(`token endpoint: no access_token (${resp.slice(0, 200)})`);
   return json.access_token;
@@ -96,7 +109,7 @@ async function fetchGridOnce(spreadsheetId) {
     `https://sheets.googleapis.com/v4/spreadsheets/${encodeURIComponent(spreadsheetId)}` +
     `?includeGridData=true&fields=${fields}`;
   const { status, body } = await httpsRequest('GET', url, { headers: { Authorization: `Bearer ${token}` } });
-  if (status !== 200) throw new Error(`sheets.get ${status}: ${body.slice(0, 300)}`);
+  if (status !== 200) throw httpError(`sheets.get ${status}: ${body.slice(0, 300)}`, status);
   const data = JSON.parse(body);
   return (data.sheets || []).map((s) => {
     const grid = (s.data && s.data[0] && s.data[0].rowData) || [];
