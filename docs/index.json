@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T17:12:13.020Z",
+  "updatedAt": "2026-07-24T18:48:53.361Z",
   "units": [
     {
       "slug": "A27-6",
@@ -439,8 +439,8 @@
       "compound": "Foukabay",
       "beds": "3 + nany",
       "title": "CL2-CH8-01 — 3 + nany — Foukabay",
-      "sig": "2026-07-24/2026-08-03,2026-08-04/2026-08-13,2026-08-15/2026-09-01",
-      "blockedRanges": 3
+      "sig": "2026-07-24/2026-08-03,2026-08-04/2026-08-13,2026-08-15/2026-09-01,2026-09-02/2026-09-07",
+      "blockedRanges": 4
     },
     {
       "slug": "CL3-26-g01",
@@ -646,7 +646,7 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany",
       "title": "F1-V20 — 4 bed stand alone + nany — Foukabay",
-      "sig": "2026-07-24/2026-07-29,2026-08-03/2026-08-08,2026-08-14/2026-08-24",
+      "sig": "2026-07-24/2026-07-29,2026-07-30/2026-08-08,2026-08-14/2026-08-24",
       "blockedRanges": 3
     },
     {
@@ -682,8 +682,8 @@
       "compound": "Foukabay",
       "beds": "2 bed  Ground",
       "title": "SA-2b-B03 — 2 bed  Ground — Foukabay",
-      "sig": "2026-07-24/2026-07-26",
-      "blockedRanges": 1
+      "sig": "2026-07-24/2026-07-26,2026-08-13/2026-08-18",
+      "blockedRanges": 2
     },
     {
       "slug": "SA-3A-B01",
