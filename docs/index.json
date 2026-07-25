@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T14:39:30.902Z",
+  "updatedAt": "2026-07-25T15:47:45.867Z",
   "units": [
     {
       "slug": "A27-6",
@@ -43,8 +43,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "B-65 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-31/2026-08-03",
-      "blockedRanges": 1
+      "sig": "2026-07-31/2026-08-03,2026-08-06/2026-08-10",
+      "blockedRanges": 2
     },
     {
       "slug": "B-CH20-02-04",
@@ -232,8 +232,8 @@
       "compound": "Foukabay",
       "beds": "3 bed  Town",
       "title": "CL1-TH11 — 3 bed  Town — Foukabay",
-      "sig": "2026-07-25/2026-08-01",
-      "blockedRanges": 1
+      "sig": "2026-07-25/2026-08-01,2026-08-04/2026-08-10",
+      "blockedRanges": 2
     },
     {
       "slug": "CL1-TW42-3",
@@ -259,8 +259,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "cl10-12b-03 — 3 bed — Foukabay",
-      "sig": "2026-07-25/2026-08-04,2026-08-05/2026-08-09",
-      "blockedRanges": 2
+      "sig": "2026-07-25/2026-08-08",
+      "blockedRanges": 1
     },
     {
       "slug": "CL10-14A-G",
