@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-25T20:33:30.770Z",
-  "written": 0,
+  "startedAt": "2026-07-25T21:38:10.940Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -142,8 +142,8 @@
       "slug": "SA-2b-B03",
       "code": "SA-2b-B03",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B01",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-25T20:33:30.796Z"
+  "finishedAt": "2026-07-25T21:38:10.966Z"
 }
