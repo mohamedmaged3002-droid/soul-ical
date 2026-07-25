@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-25T11:36:37.943Z",
-  "written": 6,
+  "startedAt": "2026-07-25T12:46:28.622Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -143,7 +143,7 @@
       "code": "SA-2b-B03",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B01",
@@ -262,7 +262,7 @@
       "code": "st5-89-01-01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "st5-89-02-02",
@@ -416,7 +416,7 @@
       "code": "CL7-CH13-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH18-01",
@@ -500,7 +500,7 @@
       "code": "CL10-21B-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl11-CH8A-G",
@@ -549,7 +549,7 @@
       "code": "CL11-15A-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-16B-02",
@@ -808,7 +808,7 @@
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-25T11:36:37.970Z"
+  "finishedAt": "2026-07-25T12:46:28.648Z"
 }
