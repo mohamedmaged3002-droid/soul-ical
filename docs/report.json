@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-25T19:35:50.783Z",
-  "written": 3,
+  "startedAt": "2026-07-25T20:33:30.770Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -192,7 +192,7 @@
       "code": "SA-8A-201",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-8A-203",
@@ -465,7 +465,7 @@
       "code": "CL10-CH11B-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl10-12b-03",
@@ -598,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-25T19:35:50.810Z"
+  "finishedAt": "2026-07-25T20:33:30.796Z"
 }
