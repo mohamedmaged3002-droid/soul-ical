@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-25T12:46:28.622Z",
-  "written": 0,
+  "startedAt": "2026-07-25T14:39:30.877Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -772,8 +772,8 @@
       "slug": "B1-SC-12C",
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "B1-SC-12D",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-25T12:46:28.648Z"
+  "finishedAt": "2026-07-25T14:39:30.902Z"
 }
