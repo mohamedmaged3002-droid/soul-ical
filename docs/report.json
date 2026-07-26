@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-26T19:18:39.794Z",
-  "written": 0,
+  "startedAt": "2026-07-26T20:32:03.168Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -220,7 +220,7 @@
       "code": "SA-9B-G01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-49-01-01",
@@ -807,8 +807,8 @@
       "slug": "Wst-CAB-L240",
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -833,5 +833,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-26T19:18:39.826Z"
+  "finishedAt": "2026-07-26T20:32:03.195Z"
 }
