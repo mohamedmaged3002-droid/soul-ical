@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-26T16:38:15.112Z",
-  "written": 4,
+  "startedAt": "2026-07-26T17:45:43.314Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -353,7 +353,7 @@
       "code": "CL4-16-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-16-03",
@@ -591,14 +591,14 @@
       "code": "CL11-20A-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL11-21-BG",
       "code": "CL11-21-BG",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z27-4",
@@ -633,7 +633,7 @@
       "code": "z2202",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
@@ -808,7 +808,7 @@
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -833,5 +833,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-26T16:38:15.132Z"
+  "finishedAt": "2026-07-26T17:45:43.339Z"
 }
