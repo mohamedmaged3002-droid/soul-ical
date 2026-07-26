@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T15:41:09.750Z",
+  "updatedAt": "2026-07-26T16:38:15.132Z",
   "units": [
     {
       "slug": "A27-6",
@@ -376,7 +376,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL11-21-BG — 3 bed — Foukabay",
-      "sig": "2026-07-26/2026-07-29,2026-07-30/2026-08-15",
+      "sig": "2026-07-26/2026-07-29,2026-07-30/2026-08-22",
       "blockedRanges": 2
     },
     {
@@ -475,7 +475,7 @@
       "compound": "Foukabay",
       "beds": "3+1",
       "title": "CL4-16-02 — 3+1 — Foukabay",
-      "sig": "2026-07-26/2026-08-22,2026-09-01/2026-09-06",
+      "sig": "2026-07-26/2026-08-15,2026-09-01/2026-09-06",
       "blockedRanges": 2
     },
     {
@@ -907,8 +907,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "capin",
       "title": "Wst-CAB-L240 — capin — Hacienda west & D-bay",
-      "sig": "2026-07-26/2026-07-27",
-      "blockedRanges": 1
+      "sig": "2026-07-26/2026-07-27,2026-07-29/2026-08-01",
+      "blockedRanges": 2
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -961,8 +961,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "z2202 — 2 BEDROOM — Gaia",
-      "sig": "2026-07-28/2026-08-02,2026-08-06/2026-08-10",
-      "blockedRanges": 2
+      "sig": "2026-07-28/2026-08-02,2026-08-06/2026-08-10,2026-08-13/2026-08-16",
+      "blockedRanges": 3
     },
     {
       "slug": "Z27-4",
