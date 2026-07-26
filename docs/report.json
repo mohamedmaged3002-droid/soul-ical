@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-26T17:45:43.314Z",
-  "written": 1,
+  "startedAt": "2026-07-26T19:18:39.794Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -591,7 +591,7 @@
       "code": "CL11-20A-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-21-BG",
@@ -833,5 +833,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-26T17:45:43.339Z"
+  "finishedAt": "2026-07-26T19:18:39.826Z"
 }
