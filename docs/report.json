@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-26T20:32:03.168Z",
-  "written": 2,
+  "startedAt": "2026-07-26T21:40:57.892Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -220,7 +220,7 @@
       "code": "SA-9B-G01",
       "compound": "Foukabay",
       "ranges": 5,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-49-01-01",
@@ -611,8 +611,8 @@
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "B-65",
@@ -808,7 +808,7 @@
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -833,5 +833,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-26T20:32:03.195Z"
+  "finishedAt": "2026-07-26T21:40:58.040Z"
 }
