@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-28T20:19:17.411Z",
-  "written": 1,
+  "startedAt": "2026-07-28T21:41:03.037Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -409,7 +409,7 @@
       "code": "CL7-CH13-G01",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-01",
@@ -500,7 +500,7 @@
       "code": "CL10-22-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl11-CH8A-G",
@@ -688,8 +688,8 @@
       "slug": "C2-CH19-G01",
       "code": "C2-CH19-G01",
       "compound": "Sokhna",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Ch24-G01",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-28T20:19:17.435Z"
+  "finishedAt": "2026-07-28T21:41:03.063Z"
 }
