@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-28T13:13:18.156Z",
-  "written": 4,
+  "startedAt": "2026-07-28T15:37:35.863Z",
+  "written": 5,
   "skipped": [],
   "tabs": [
     {
@@ -114,8 +114,8 @@
       "slug": "F1-V20",
       "code": "F1-V20",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -136,14 +136,14 @@
       "code": "SA-2b-B03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B01",
       "code": "SA-3A-B01",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B02",
@@ -205,8 +205,8 @@
       "slug": "SA-9B-G01",
       "code": "SA-9B-G01",
       "compound": "Foukabay",
-      "ranges": 5,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "ST5-49-01-01",
@@ -381,7 +381,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
@@ -486,7 +486,7 @@
       "code": "CL10-15A-03",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL10-21B-03",
@@ -563,7 +563,7 @@
       "code": "Cl11-16b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl11-17A-G",
@@ -773,14 +773,14 @@
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-c2b",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-28T13:13:18.185Z"
+  "finishedAt": "2026-07-28T15:37:35.889Z"
 }
