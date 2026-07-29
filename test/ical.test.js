@@ -1,6 +1,6 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
-const { buildIcal } = require('../src/ical');
+const { buildIcal, stripStamps } = require('../src/ical');
 
 test('buildIcal emits a VCALENDAR with one VEVENT per range', () => {
   const ics = buildIcal({
@@ -35,4 +35,18 @@ test('buildIcal with no ranges is a valid empty calendar', () => {
   const ics = buildIcal({ slug: 'X', title: 'Empty', ranges: [] });
   assert.strictEqual((ics.match(/BEGIN:VEVENT/g) || []).length, 0);
   assert.match(ics, /END:VCALENDAR\r\n$/);
+});
+
+test('stripStamps ignores DTSTAMP/LAST-MODIFIED so identical availability compares equal', () => {
+  const a = buildIcal({ slug: 'X', title: 'X', ranges: [{ start: '2026-08-01', endExclusive: '2026-08-05' }] });
+  const b = a.replace(/^DTSTAMP:.*$/m, 'DTSTAMP:20990101T000000Z')
+             .replace(/^LAST-MODIFIED:.*$/m, 'LAST-MODIFIED:20990101T000000Z');
+  assert.notStrictEqual(a, b);
+  assert.strictEqual(stripStamps(a), stripStamps(b));
+});
+
+test('stripStamps still sees a real availability change', () => {
+  const a = buildIcal({ slug: 'X', title: 'X', ranges: [{ start: '2026-08-01', endExclusive: '2026-08-05' }] });
+  const c = buildIcal({ slug: 'X', title: 'X', ranges: [{ start: '2026-08-01', endExclusive: '2026-08-09' }] });
+  assert.notStrictEqual(stripStamps(a), stripStamps(c));
 });

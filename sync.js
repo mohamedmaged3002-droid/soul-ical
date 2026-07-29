@@ -4,9 +4,10 @@ const path = require('path');
 const { fetchGrid } = require('./src/sheets');
 const { parseTab } = require('./src/parse');
 const { collapseBlocked, iso } = require('./src/dates');
-const { buildIcal } = require('./src/ical');
+const { buildIcal, stripStamps } = require('./src/ical');
 const { shouldWriteUnit } = require('./src/guard');
 const { findGhosts } = require('./src/prune');
+const { ALIASES, resolveAliases } = require('./src/aliases');
 const { codeSlug } = require('./src/slug');
 const cfg = require('./src/config');
 
@@ -47,9 +48,10 @@ async function main() {
   const indexMap = {};
   for (const k of Object.keys(prev)) indexMap[k] = prev[k]; // carry forward untouched units
 
-  const report = { startedAt: new Date().toISOString(), written: 0, skipped: [], tabs: [], units: [], collisions: [], pruned: [] };
+  const report = { startedAt: new Date().toISOString(), written: 0, skipped: [], tabs: [], units: [], collisions: [], pruned: [], aliases: [] };
   const usedSlug = new Map(); // slug -> code, to detect cross-unit filename collisions
   const okCompounds = new Set(); // compounds whose tab parsed this run — the only ones safe to prune
+  const builtBySlug = {}; // slug -> { title, ranges } for units seen this run (feeds aliases)
 
   for (const tab of tabs) {
     if (tab.hidden) {
@@ -91,6 +93,7 @@ async function main() {
       }
       // Always refresh the index entry (carry-forward + change-detection signature).
       indexMap[slug] = { slug, code: u.code, compound: u.compound, beds: u.beds, title, sig, blockedRanges: ranges.length };
+      builtBySlug[slug] = { title, ranges };
     }
   }
 
@@ -104,6 +107,21 @@ async function main() {
     if (fs.existsSync(dead)) fs.unlinkSync(dead);
     report.pruned.push(g);
     console.log(`  PRUNED ghost feed ${g.slug}.ics (gone from "${g.compound}")`);
+  }
+
+  // Republish retired filenames that OTAs are still subscribed to, carrying the
+  // live unit's availability. Runs AFTER the prune so an alias survives the
+  // retirement of its own code. Aliases stay OUT of index.json/links.csv: they
+  // are a bridge for existing subscriptions, not a second identity for the unit.
+  for (const a of resolveAliases(ALIASES, builtBySlug)) {
+    const dest = path.join(OUT, `${a.aliasSlug}.ics`);
+    const next = buildIcal({ slug: a.aliasSlug, title: a.title, ranges: a.ranges });
+    const cur = fs.existsSync(dest) ? fs.readFileSync(dest, 'utf8') : '';
+    // Compare stamp-free, or the fresh DTSTAMP alone would commit every run.
+    const changed = stripStamps(cur) !== stripStamps(next);
+    if (changed) fs.writeFileSync(dest, next, 'utf8');
+    report.aliases.push({ alias: a.aliasSlug, target: a.targetSlug, ranges: a.ranges.length, written: changed });
+    console.log(`  ALIAS ${a.aliasSlug}.ics -> ${a.targetSlug} (${a.ranges.length} blocked ranges)${changed ? '' : ' [unchanged]'}`);
   }
 
   const index = Object.values(indexMap).sort((a, b) => a.slug.localeCompare(b.slug));
@@ -121,7 +139,7 @@ async function main() {
   }
   fs.writeFileSync(path.join(OUT, 'links.csv'), csv.join('\n') + '\n');
 
-  console.log(`Done: wrote ${report.written}, pruned ${report.pruned.length}, skipped ${report.skipped.length}, indexed ${index.length}, collisions ${report.collisions.length}`);
+  console.log(`Done: wrote ${report.written}, pruned ${report.pruned.length}, aliased ${report.aliases.length}, skipped ${report.skipped.length}, indexed ${index.length}, collisions ${report.collisions.length}`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });

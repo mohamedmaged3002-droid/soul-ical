@@ -43,4 +43,12 @@ function buildIcal({ slug, title, ranges = [] }) {
   return lines.join('\r\n') + '\r\n';
 }
 
-module.exports = { buildIcal };
+// Drop the per-build timestamp lines so two renders of the SAME availability
+// compare equal. Every buildIcal() call stamps DTSTAMP/LAST-MODIFIED with "now",
+// so a byte comparison always differs and would commit on every 15-min run.
+// (Same principle as ical-sync Rule 8: hash content, not stamps.)
+function stripStamps(text) {
+  return String(text || '').replace(/^(DTSTAMP|LAST-MODIFIED):.*\r?\n/gm, '');
+}
+
+module.exports = { buildIcal, stripStamps };
