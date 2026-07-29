@@ -6,6 +6,7 @@ const { parseTab } = require('./src/parse');
 const { collapseBlocked, iso } = require('./src/dates');
 const { buildIcal } = require('./src/ical');
 const { shouldWriteUnit } = require('./src/guard');
+const { findGhosts } = require('./src/prune');
 const { codeSlug } = require('./src/slug');
 const cfg = require('./src/config');
 
@@ -46,8 +47,9 @@ async function main() {
   const indexMap = {};
   for (const k of Object.keys(prev)) indexMap[k] = prev[k]; // carry forward untouched units
 
-  const report = { startedAt: new Date().toISOString(), written: 0, skipped: [], tabs: [], units: [], collisions: [] };
+  const report = { startedAt: new Date().toISOString(), written: 0, skipped: [], tabs: [], units: [], collisions: [], pruned: [] };
   const usedSlug = new Map(); // slug -> code, to detect cross-unit filename collisions
+  const okCompounds = new Set(); // compounds whose tab parsed this run — the only ones safe to prune
 
   for (const tab of tabs) {
     if (tab.hidden) {
@@ -62,6 +64,7 @@ async function main() {
       console.log(`  tab "${tab.title}" SKIPPED (${res.reason})`);
       continue;
     }
+    okCompounds.add(res.compound);
     for (const u of res.units) {
       // Filename = code slug; disambiguate genuine collisions by compound, then counter.
       let slug = codeSlug(u.code);
@@ -91,6 +94,18 @@ async function main() {
     }
   }
 
+  // Retire codes Soul removed from the sheet. Without this, index.json/links.csv
+  // are cumulative and the orphaned .ics is served by Pages forever — a frozen
+  // EMPTY feed reads as "available forever" and silently double-books (L-069).
+  // Only prune where the compound's tab actually parsed this run; see prune.js.
+  for (const g of findGhosts(prev, new Set(usedSlug.keys()), okCompounds)) {
+    delete indexMap[g.slug];
+    const dead = path.join(OUT, `${g.slug}.ics`);
+    if (fs.existsSync(dead)) fs.unlinkSync(dead);
+    report.pruned.push(g);
+    console.log(`  PRUNED ghost feed ${g.slug}.ics (gone from "${g.compound}")`);
+  }
+
   const index = Object.values(indexMap).sort((a, b) => a.slug.localeCompare(b.slug));
   report.finishedAt = new Date().toISOString();
   fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({ updatedAt: report.finishedAt, units: index }, null, 2));
@@ -106,7 +121,7 @@ async function main() {
   }
   fs.writeFileSync(path.join(OUT, 'links.csv'), csv.join('\n') + '\n');
 
-  console.log(`Done: wrote ${report.written}, skipped ${report.skipped.length}, indexed ${index.length}, collisions ${report.collisions.length}`);
+  console.log(`Done: wrote ${report.written}, pruned ${report.pruned.length}, skipped ${report.skipped.length}, indexed ${index.length}, collisions ${report.collisions.length}`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
