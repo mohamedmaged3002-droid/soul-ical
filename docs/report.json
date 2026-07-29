@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-29T20:37:10.780Z",
-  "written": 1,
+  "startedAt": "2026-07-29T21:39:08.921Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -395,7 +395,7 @@
       "code": "cl4-ch31-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-CH34-G01",
@@ -835,5 +835,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-29T20:37:10.806Z"
+  "finishedAt": "2026-07-29T21:39:08.945Z"
 }
