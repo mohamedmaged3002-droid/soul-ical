@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-29T14:58:09.858Z",
+  "startedAt": "2026-07-29T16:35:50.343Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -500,7 +500,7 @@
       "code": "CL10-22-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl11-CH8A-G",
@@ -605,7 +605,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-65",
@@ -826,5 +826,5 @@
     }
   ],
   "collisions": [],
-  "finishedAt": "2026-07-29T14:58:09.884Z"
+  "finishedAt": "2026-07-29T16:35:50.369Z"
 }
