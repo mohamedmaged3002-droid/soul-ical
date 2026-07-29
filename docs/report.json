@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-29T19:18:17.676Z",
+  "startedAt": "2026-07-29T19:36:22.871Z",
   "written": 0,
   "skipped": [],
   "tabs": [
@@ -826,27 +826,6 @@
     }
   ],
   "collisions": [],
-  "pruned": [
-    {
-      "slug": "B-CH20-02-04",
-      "compound": "Sokhna"
-    },
-    {
-      "slug": "Cl11-16-03",
-      "compound": "Foukabay"
-    },
-    {
-      "slug": "CL6-TW7A-F",
-      "compound": "Foukabay"
-    },
-    {
-      "slug": "Wst-CAB-L138",
-      "compound": "Hacienda west & D-bay"
-    },
-    {
-      "slug": "Wst-HAZ-3806",
-      "compound": "Hacienda west & D-bay"
-    }
-  ],
-  "finishedAt": "2026-07-29T19:18:17.714Z"
+  "pruned": [],
+  "finishedAt": "2026-07-29T19:36:22.896Z"
 }
