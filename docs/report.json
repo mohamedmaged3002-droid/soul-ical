@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-30T22:10:17.357Z",
-  "written": 3,
+  "startedAt": "2026-07-30T23:18:59.643Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -297,7 +297,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-TW42-3",
@@ -808,14 +808,14 @@
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3613",
       "code": "Wst-haz-3613",
       "compound": "Hacienda west & D-bay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-30T22:10:17.382Z"
+  "finishedAt": "2026-07-30T23:18:59.669Z"
 }
