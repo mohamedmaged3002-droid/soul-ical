@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const { fetchGrid } = require('./src/sheets');
 const { parseTab } = require('./src/parse');
-const { collapseBlocked, iso } = require('./src/dates');
+const { collapseBlocked, dropPastRanges, iso } = require('./src/dates');
 const { buildIcal, stripStamps } = require('./src/ical');
 const { shouldWriteUnit } = require('./src/guard');
 const { findGhosts } = require('./src/prune');
@@ -60,7 +60,7 @@ async function main() {
       console.log(`  tab "${tab.title}" SKIPPED (hidden)`);
       continue;
     }
-    const res = parseTab(tab, { todayIso: tIso });
+    const res = parseTab(tab);
     report.tabs.push({ title: tab.title, ok: res.ok, reason: res.reason || null, dateRows: res.dateRows || 0, units: res.units ? res.units.length : 0 });
     if (!res.ok) {
       console.log(`  tab "${tab.title}" SKIPPED (${res.reason})`);
@@ -79,7 +79,9 @@ async function main() {
       }
       usedSlug.set(slug, u.code);
 
-      const ranges = collapseBlocked(u.blockedIso);
+      // True starts kept so UIDs stay stable for the life of a booking (L-076);
+      // only fully-elapsed ranges are dropped.
+      const ranges = dropPastRanges(collapseBlocked(u.blockedIso), tIso);
       const sig = ranges.map((r) => `${r.start}/${r.endExclusive}`).join(',');
       const title = [u.code, u.beds, u.compound].filter(Boolean).join(' — ');
       const decision = shouldWriteUnit(prev[slug] || null, { tabOk: true, sig });

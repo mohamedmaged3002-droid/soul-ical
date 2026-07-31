@@ -44,7 +44,7 @@ function compoundFromTitle(title) {
   return String(title).replace(/\bavailab\w*/ig, '').trim() || String(title);
 }
 
-// tab: { title, merges, rows }. opts: { todayIso }.
+// tab: { title, merges, rows }.
 // -> { ok:true, title, compound, dateRows, units:[{code,beds,compound,blockedIso[]}] }
 //    or { ok:false, reason, title }.
 //
@@ -53,7 +53,7 @@ function compoundFromTitle(title) {
 // row across columns >=1, bedrooms in the next row, and dates run down column A.
 // We detect it structurally rather than by a fixed label: column A is the date
 // axis; the code row is the topmost row above the first date that has codes.
-function parseTab(tab, { todayIso }) {
+function parseTab(tab) {
   const title = tab.title;
   if (/price/i.test(title)) return { ok: false, reason: 'prices-tab', title };
   const rows = tab.rows || [];
@@ -95,7 +95,11 @@ function parseTab(tab, { todayIso }) {
     const dateIso = parseSheetDate(dateText);
     if (!dateIso) continue;
     dateRows++;
-    if (dateIso < todayIso) continue; // skip past dates
+    // Past dates are KEPT. Clipping an in-progress booking's start to "today"
+    // rewrote its DTSTART every day, and because the UID folds in start+end
+    // (L-011) the UID churned daily on an unchanged booking — 93 of 96 feeds.
+    // OTAs reconcile by UID, so each churn read as "block deleted, new block
+    // added". Presentation-level trimming now lives in sync.js (L-076).
     for (const u of cols) {
       const at = resolve(r, u.c);
       const cell = rows[at.r] && rows[at.r][at.c];

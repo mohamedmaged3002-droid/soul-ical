@@ -40,4 +40,13 @@ function collapseBlocked(isoDates) {
   return ranges;
 }
 
-module.exports = { ymd, iso, parseIso, addDays, collapseBlocked };
+// Drop ranges that are entirely in the past; keep every surviving range's TRUE
+// start. Trimming a live range's start to today would move it every day, and
+// the UID is built from that start (L-076) — so an unchanged booking must keep
+// an unchanged start. A range only disappears the day after it ends, which is a
+// real change, not a daily one.
+function dropPastRanges(ranges, todayIso) {
+  return (ranges || []).filter((r) => r.endExclusive > todayIso);
+}
+
+module.exports = { ymd, iso, parseIso, addDays, collapseBlocked, dropPastRanges };

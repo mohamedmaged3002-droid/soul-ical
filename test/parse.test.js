@@ -29,7 +29,7 @@ test('parseSheetDate reads day-first D/M/YYYY out of a labelled cell', () => {
 });
 
 test('parseTab skips a prices tab', () => {
-  assert.strictEqual(parseTab({ title: 'Gaia prices', merges: [], rows: [] }, { todayIso: '2026-01-01' }).ok, false);
+  assert.strictEqual(parseTab({ title: 'Gaia prices', merges: [], rows: [] }).ok, false);
 });
 
 test('parseTab extracts blocked dates per unit, honours merges, skips past dates', () => {
@@ -49,7 +49,7 @@ test('parseTab extracts blocked dates per unit, honours merges, skips past dates
   ];
   // ST3-V20 col=1 merged across the two date rows (row3..row4 inclusive -> end exclusive 5)
   const merges = [{ startRowIndex: 3, endRowIndex: 5, startColumnIndex: 1, endColumnIndex: 2 }];
-  const res = parseTab({ title: 'Foukabay availability', merges, rows }, { todayIso: '2026-05-01' });
+  const res = parseTab({ title: 'Foukabay availability', merges, rows });
   assert.strictEqual(res.ok, true);
   assert.strictEqual(res.compound, 'Foukabay');
   const st3 = res.units.find((u) => u.code === 'ST3-V20');
@@ -59,19 +59,20 @@ test('parseTab extracts blocked dates per unit, honours merges, skips past dates
   assert.deepStrictEqual(f1.blockedIso, ['2026-05-21']);                // only the "hana" cell
 });
 
-test('parseTab skips dates before today', () => {
+test('parseTab KEEPS dates before today (trimming is sync.js\'s job — L-076)', () => {
   const rows = [
     [cell('UNIT NUMBER'), cell('A1')],
     [cell('NUMBER OF BEDROOMS'), cell('2 bed')],
     [cell('1/5/2026'), cell('', { red: 0, green: 0, blue: 1 })],
     [cell('1/7/2026'), cell('', { red: 0, green: 0, blue: 1 })],
   ];
-  const res = parseTab({ title: 'Gaia availability', merges: [], rows }, { todayIso: '2026-06-01' });
-  assert.deepStrictEqual(res.units[0].blockedIso, ['2026-07-01']); // 1 May dropped as past
+  const res = parseTab({ title: 'Gaia availability', merges: [], rows });
+  // Both kept: a live booking's TRUE start must survive, or its UID churns daily.
+  assert.deepStrictEqual(res.units[0].blockedIso, ['2026-05-01', '2026-07-01']);
 });
 
 test('parseTab returns ok:false when the tab has no date rows', () => {
-  assert.strictEqual(parseTab({ title: 'X availability', merges: [], rows: [[cell('whoops')]] }, { todayIso: '2026-01-01' }).ok, false);
+  assert.strictEqual(parseTab({ title: 'X availability', merges: [], rows: [[cell('whoops')]] }).ok, false);
 });
 
 test('parseTab works when column A header is blank or a different label (no "UNIT NUMBER")', () => {
@@ -81,7 +82,7 @@ test('parseTab works when column A header is blank or a different label (no "UNI
     [cell('no. of beds'), cell('3'), cell('2 BEDROOM')],
     [cell('Wednesday 1/7/2026'), cell('', { red: 0, green: 1, blue: 0 }), cell('', { red: 1, green: 1, blue: 1 })],
   ];
-  const res = parseTab({ title: 'Gaia availability', merges: [], rows }, { todayIso: '2026-06-01' });
+  const res = parseTab({ title: 'Gaia availability', merges: [], rows });
   assert.strictEqual(res.ok, true);
   assert.strictEqual(res.compound, 'Gaia');
   assert.strictEqual(res.units.length, 2);
