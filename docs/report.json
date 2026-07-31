@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-31T15:33:43.468Z",
-  "written": 0,
+  "startedAt": "2026-07-31T16:57:53.670Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -233,8 +233,8 @@
       "slug": "ST5-86-01-01",
       "code": "ST5-86-01-01",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "ST5-86-01-02",
@@ -465,7 +465,7 @@
       "code": "cl10-12b-03",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-14A-G",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-31T15:33:43.503Z"
+  "finishedAt": "2026-07-31T16:57:53.711Z"
 }
