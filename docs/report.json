@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-31T22:37:30.492Z",
+  "startedAt": "2026-07-31T23:44:05.274Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -101,7 +101,7 @@
       "code": "CL8-V9",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V11",
@@ -157,7 +157,7 @@
       "code": "SA-4A-103",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "SA-4B-102",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-31T22:37:30.532Z"
+  "finishedAt": "2026-07-31T23:44:05.302Z"
 }
