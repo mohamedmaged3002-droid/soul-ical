@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-31T21:29:25.104Z",
-  "written": 3,
+  "startedAt": "2026-07-31T22:37:30.492Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -115,7 +115,7 @@
       "code": "F1-V20",
       "compound": "Foukabay",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-1B-05",
@@ -381,7 +381,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch33-03",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-31T21:29:25.143Z"
+  "finishedAt": "2026-07-31T22:37:30.532Z"
 }
