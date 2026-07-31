@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-07-31T18:26:38.312Z",
+  "startedAt": "2026-07-31T20:04:52.515Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -604,7 +604,7 @@
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "ranges": 3,
+      "ranges": 2,
       "decision": "ok"
     },
     {
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-07-31T18:26:38.352Z"
+  "finishedAt": "2026-07-31T20:04:52.556Z"
 }
