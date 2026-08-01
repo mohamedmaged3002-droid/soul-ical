@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-01T09:34:19.957Z",
-  "written": 0,
+  "startedAt": "2026-08-01T11:06:31.289Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -220,7 +220,7 @@
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-85-G01",
@@ -605,7 +605,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B-65",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-01T09:34:19.998Z"
+  "finishedAt": "2026-08-01T11:06:31.329Z"
 }
