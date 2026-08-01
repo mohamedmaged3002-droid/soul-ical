@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-01T11:06:31.289Z",
+  "startedAt": "2026-08-01T12:13:37.379Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -101,7 +101,7 @@
       "code": "CL8-V9",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL8-V11",
@@ -220,7 +220,7 @@
       "code": "ST5-CH79-01-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-85-G01",
@@ -535,7 +535,7 @@
       "code": "cl11-ch13-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13a-03",
@@ -605,7 +605,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-65",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-01T11:06:31.329Z"
+  "finishedAt": "2026-08-01T12:13:37.419Z"
 }
