@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-01T01:19:00.115Z",
-  "written": 4,
+  "startedAt": "2026-08-01T04:54:57.473Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -87,7 +87,7 @@
       "code": "ST3-V20",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V8",
@@ -381,7 +381,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch33-03",
@@ -598,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -738,7 +738,7 @@
       "code": "B3-CH18-G01",
       "compound": "Sokhna",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "c1-CH20-02-02",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-01T01:19:00.180Z"
+  "finishedAt": "2026-08-01T04:54:57.513Z"
 }
