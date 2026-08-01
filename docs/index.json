@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T12:13:37.419Z",
+  "updatedAt": "2026-08-01T13:59:54.254Z",
   "units": [
     {
       "slug": "A27-6",
@@ -79,8 +79,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2 BEEDROOM",
       "title": "B1-SC-12D — 2 BEEDROOM — Hacienda west & D-bay",
-      "sig": "2026-07-31/2026-08-02,2026-08-20/2026-08-23",
-      "blockedRanges": 2
+      "sig": "2026-07-31/2026-08-02,2026-08-03/2026-08-09,2026-08-20/2026-08-23",
+      "blockedRanges": 3
     },
     {
       "slug": "B2-ch40-01-02",
@@ -349,7 +349,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "Cl11-18b-G — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-08-04,2026-08-08/2026-08-15",
+      "sig": "2026-07-24/2026-08-04,2026-08-05/2026-08-15",
       "blockedRanges": 2
     },
     {
