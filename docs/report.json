@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-02T22:11:20.489Z",
-  "written": 1,
+  "startedAt": "2026-08-02T23:14:21.879Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -612,7 +612,7 @@
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "R16-3",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-02T22:11:20.521Z"
+  "finishedAt": "2026-08-02T23:14:21.903Z"
 }
