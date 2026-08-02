@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-02T12:06:21.029Z",
-  "written": 1,
+  "startedAt": "2026-08-02T13:57:15.727Z",
+  "written": 9,
   "skipped": [],
   "tabs": [
     {
@@ -35,7 +35,7 @@
       "title": "Gaia availability",
       "ok": true,
       "reason": null,
-      "dateRows": 135,
+      "dateRows": 134,
       "units": 10
     },
     {
@@ -597,15 +597,15 @@
       "slug": "Z27-4",
       "code": "Z27-4",
       "compound": "Gaia",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B-65",
@@ -625,43 +625,43 @@
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "A61-4",
       "code": "A61-4",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "A27-6",
       "code": "A27-6",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "A72-4",
       "code": "A72-4",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Z29-1",
       "code": "Z29-1",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "A29-4",
       "code": "A29-4",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "TH-213",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-02T12:06:21.068Z"
+  "finishedAt": "2026-08-02T13:57:15.768Z"
 }
