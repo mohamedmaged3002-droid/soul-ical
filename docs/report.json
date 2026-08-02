@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-02T10:52:10.871Z",
+  "startedAt": "2026-08-02T12:06:21.029Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -520,8 +520,8 @@
       "slug": "cl11-ch9b-02",
       "code": "cl11-ch9b-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13-ag",
@@ -815,7 +815,7 @@
       "code": "west-2802",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3613",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-02T10:52:10.912Z"
+  "finishedAt": "2026-08-02T12:06:21.068Z"
 }
