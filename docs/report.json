@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-02T13:57:15.727Z",
-  "written": 9,
+  "startedAt": "2026-08-02T15:09:51.711Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -521,7 +521,7 @@
       "code": "cl11-ch9b-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl11-ch13-ag",
@@ -576,8 +576,8 @@
       "slug": "Cl11-18b-G",
       "code": "Cl11-18b-G",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL11-20A-01",
@@ -598,14 +598,14 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-65",
@@ -626,42 +626,42 @@
       "code": "z2202",
       "compound": "Gaia",
       "ranges": 4,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
       "code": "A61-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A27-6",
       "code": "A27-6",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A72-4",
       "code": "A72-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z29-1",
       "code": "Z29-1",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A29-4",
       "code": "A29-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "TH-213",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-02T13:57:15.768Z"
+  "finishedAt": "2026-08-02T15:09:51.752Z"
 }
