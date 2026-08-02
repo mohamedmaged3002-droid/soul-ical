@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T09:12:29.383Z",
+  "updatedAt": "2026-08-02T10:52:10.912Z",
   "units": [
     {
       "slug": "A27-6",
@@ -871,6 +871,15 @@
       "compound": "Sokhna",
       "beds": "3 BEDROOM +nanny",
       "title": "TH-213 — 3 BEDROOM +nanny — Sokhna",
+      "sig": "",
+      "blockedRanges": 0
+    },
+    {
+      "slug": "west-2802",
+      "code": "west-2802",
+      "compound": "Hacienda west & D-bay",
+      "beds": "2",
+      "title": "west-2802 — 2 — Hacienda west & D-bay",
       "sig": "",
       "blockedRanges": 0
     },
