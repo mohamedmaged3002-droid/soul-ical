@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-01T23:13:56.578Z",
-  "written": 0,
+  "startedAt": "2026-08-02T00:16:58.116Z",
+  "written": 13,
   "skipped": [],
   "tabs": [
     {
@@ -114,8 +114,8 @@
       "slug": "F1-V20",
       "code": "F1-V20",
       "compound": "Foukabay",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "SA-1B-05",
@@ -198,8 +198,8 @@
       "slug": "SA-8B-203",
       "code": "SA-8B-203",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "SA-9B-G01",
@@ -212,8 +212,8 @@
       "slug": "ST5-49-01-01",
       "code": "ST5-49-01-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "ST5-CH79-01-01",
@@ -254,8 +254,8 @@
       "slug": "st5-89-01-01",
       "code": "st5-89-01-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "st5-89-02-02",
@@ -317,8 +317,8 @@
       "slug": "CL3-26-g01",
       "code": "CL3-26-g01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL3-27-g01",
@@ -569,8 +569,8 @@
       "slug": "Cl11-17A-G",
       "code": "Cl11-17A-G",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-18b-G",
@@ -583,8 +583,8 @@
       "slug": "CL11-20A-01",
       "code": "CL11-20A-01",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL11-21-BG",
@@ -618,15 +618,15 @@
       "slug": "R16-3",
       "code": "R16-3",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "A61-4",
@@ -779,8 +779,8 @@
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "B1-c2b",
@@ -793,8 +793,8 @@
       "slug": "WST-CAB-21D",
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -807,15 +807,15 @@
       "slug": "WST-GCH-154af-s",
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Wst-haz-3613",
       "code": "Wst-haz-3613",
       "compound": "Hacienda west & D-bay",
-      "ranges": 5,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "Wst-haz-3614",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-01T23:13:56.620Z"
+  "finishedAt": "2026-08-02T00:16:58.160Z"
 }
