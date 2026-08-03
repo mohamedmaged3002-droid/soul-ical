@@ -1,4 +1,4 @@
-const { ymd, parseIso } = require('./dates');
+const { ymd, parseIso, addDays } = require('./dates');
 
 function esc(text) {
   return String(text || '').replace(/[\\;,]/g, (c) => '\\' + c).replace(/\n/g, '\\n');
@@ -20,24 +20,36 @@ function buildIcal({ slug, title, ranges = [] }) {
     `X-WR-CALNAME:${esc(title)}`,
     'CALSCALE:GREGORIAN',
   ];
+  // ONE VEVENT PER NIGHT, keyed on the night itself.
+  //
+  // A range's boundaries are not a stable thing to name: they are an artefact of
+  // which neighbouring nights happen to be blocked. Fold start+end into the UID
+  // and every merge, split, extension or trim revokes UIDs whose nights are still
+  // booked — the OTA applies the delete, misses the re-add, and resells the unit.
+  // That is what sold SA-3A-B02 for Aug 6-10 when a gap closed on 2026-07-23.
+  //
+  // A night IS stable. Keyed this way an event's body never changes, so nothing
+  // ever needs to "update" — nights only appear (block) or disappear (release),
+  // which is the one thing every OTA importer handles correctly. That also keeps
+  // L-011 satisfied without relying on DTSTAMP, which importers ignore.
   for (const r of ranges) {
-    const startYmd = ymd(parseIso(r.start));
-    const endYmd = ymd(parseIso(r.endExclusive));
-    lines.push(
-      'BEGIN:VEVENT',
-      // UID encodes start+end so any range change yields a NEW event — OTAs that
-      // sync incrementally by UID then drop the old block and add the new one.
-      `UID:soul-${slug}-${startYmd}-${endYmd}@bluekeys.co`,
-      `DTSTAMP:${stamp}`,
-      `LAST-MODIFIED:${stamp}`,
-      'SEQUENCE:0',
-      `DTSTART;VALUE=DATE:${startYmd}`,
-      `DTEND;VALUE=DATE:${endYmd}`,
-      'SUMMARY:Unavailable',
-      'STATUS:CONFIRMED',
-      'TRANSP:OPAQUE',
-      'END:VEVENT',
-    );
+    const end = parseIso(r.endExclusive);
+    for (let d = parseIso(r.start); d < end; d = addDays(d, 1)) {
+      const night = ymd(d);
+      lines.push(
+        'BEGIN:VEVENT',
+        `UID:soul-${slug}-${night}@bluekeys.co`,
+        `DTSTAMP:${stamp}`,
+        `LAST-MODIFIED:${stamp}`,
+        'SEQUENCE:0',
+        `DTSTART;VALUE=DATE:${night}`,
+        `DTEND;VALUE=DATE:${ymd(addDays(d, 1))}`,
+        'SUMMARY:Unavailable',
+        'STATUS:CONFIRMED',
+        'TRANSP:OPAQUE',
+        'END:VEVENT',
+      );
+    }
   }
   lines.push('END:VCALENDAR');
   return lines.join('\r\n') + '\r\n';

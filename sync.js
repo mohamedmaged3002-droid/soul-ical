@@ -12,6 +12,9 @@ const { codeSlug } = require('./src/slug');
 const cfg = require('./src/config');
 
 const OUT = path.join(__dirname, 'docs');
+// One-off: re-render every feed even where availability is unchanged. Needed when
+// the feed FORMAT changes, which the availability signature cannot see.
+const FORCE_REWRITE = process.env.FORCE_REWRITE === '1';
 
 function todayIso() {
   const d = new Date();
@@ -84,7 +87,7 @@ async function main() {
       const ranges = dropPastRanges(collapseBlocked(u.blockedIso), tIso);
       const sig = ranges.map((r) => `${r.start}/${r.endExclusive}`).join(',');
       const title = [u.code, u.beds, u.compound].filter(Boolean).join(' — ');
-      const decision = shouldWriteUnit(prev[slug] || null, { tabOk: true, sig });
+      const decision = shouldWriteUnit(prev[slug] || null, { tabOk: true, sig }, { force: FORCE_REWRITE });
       report.units.push({ slug, code: u.code, compound: u.compound, ranges: ranges.length, decision: decision.reason });
 
       if (decision.write) {

@@ -21,3 +21,17 @@ test('changed signature writes', () => {
   assert.deepStrictEqual(shouldWriteUnit({ sig: 'a' }, { tabOk: true, sig: 'b' }),
     { write: true, reason: 'ok' });
 });
+
+// The sig only describes AVAILABILITY, so a change to the feed FORMAT is invisible
+// to it and would roll out only as each unit happens to get booked. Stable blocks
+// would keep the old boundary-encoded UIDs indefinitely — and those are precisely
+// the ones a future merge can revoke. FORCE_REWRITE=1 re-renders every feed once.
+test('force re-renders a unit whose availability has not changed', () => {
+  assert.deepStrictEqual(shouldWriteUnit({ sig: 'a' }, { tabOk: true, sig: 'a' }, { force: true }),
+    { write: true, reason: 'forced' });
+});
+
+test('force NEVER overrides a failed tab parse', () => {
+  assert.deepStrictEqual(shouldWriteUnit({ sig: 'x' }, { tabOk: false, sig: 'y' }, { force: true }),
+    { write: false, reason: 'tab-parse-failed' });
+});
