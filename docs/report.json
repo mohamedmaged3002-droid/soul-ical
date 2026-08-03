@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-03T18:27:58.794Z",
-  "written": 3,
+  "startedAt": "2026-08-03T20:15:29.519Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -18,18 +18,18 @@
       "units": 0
     },
     {
-      "title": "Foukabay availability",
-      "ok": true,
-      "reason": null,
-      "dateRows": 135,
-      "units": 73
-    },
-    {
       "title": "Foukabay prices",
       "ok": false,
       "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
+    },
+    {
+      "title": "Foukabay availability",
+      "ok": true,
+      "reason": null,
+      "dateRows": 135,
+      "units": 73
     },
     {
       "title": "Gaia availability",
@@ -458,7 +458,7 @@
       "code": "CL10-CH11B-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-12b-03",
@@ -577,7 +577,7 @@
       "code": "Cl11-18b-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-20A-01",
@@ -605,7 +605,7 @@
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B-65",
@@ -794,7 +794,7 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-03T18:27:58.824Z"
+  "finishedAt": "2026-08-03T20:15:29.560Z"
 }
