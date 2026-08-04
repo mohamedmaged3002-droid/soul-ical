@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-04T02:56:35.879Z",
-  "written": 9,
+  "startedAt": "2026-08-04T05:54:49.597Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -101,7 +101,7 @@
       "code": "CL8-V9",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL8-V11",
@@ -136,7 +136,7 @@
       "code": "SA-2b-B03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B01",
@@ -171,7 +171,7 @@
       "code": "SA-4B-104",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-6b-G03",
@@ -234,7 +234,7 @@
       "code": "ST5-86-01-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-86-01-02",
@@ -367,7 +367,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch22-03",
@@ -409,7 +409,7 @@
       "code": "CL7-CH13-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH18-01",
@@ -465,7 +465,7 @@
       "code": "cl10-12b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL10-14A-G",
@@ -535,7 +535,7 @@
       "code": "cl11-ch13-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl11-ch13a-03",
@@ -612,7 +612,7 @@
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "R16-3",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-04T02:56:35.923Z"
+  "finishedAt": "2026-08-04T05:54:49.642Z"
 }
