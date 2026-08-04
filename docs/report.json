@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-04T08:45:57.444Z",
-  "written": 0,
+  "startedAt": "2026-08-04T11:28:53.866Z",
+  "written": 9,
   "skipped": [],
   "tabs": [
     {
@@ -35,7 +35,7 @@
       "title": "Gaia availability",
       "ok": true,
       "reason": null,
-      "dateRows": 134,
+      "dateRows": 135,
       "units": 10
     },
     {
@@ -499,8 +499,8 @@
       "slug": "CL10-22-03",
       "code": "CL10-22-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-CH8A-G",
@@ -597,15 +597,15 @@
       "slug": "Z27-4",
       "code": "Z27-4",
       "compound": "Gaia",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "B-65",
@@ -625,43 +625,43 @@
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
-      "ranges": 4,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "A61-4",
       "code": "A61-4",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "A27-6",
       "code": "A27-6",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "A72-4",
       "code": "A72-4",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Z29-1",
       "code": "Z29-1",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "A29-4",
       "code": "A29-4",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "TH-213",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-04T08:45:57.483Z"
+  "finishedAt": "2026-08-04T11:28:53.908Z"
 }
