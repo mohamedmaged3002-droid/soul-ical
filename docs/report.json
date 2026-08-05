@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-05T22:43:29.147Z",
-  "written": 1,
+  "startedAt": "2026-08-05T23:41:37.784Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -815,7 +815,7 @@
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-05T22:43:29.187Z"
+  "finishedAt": "2026-08-05T23:41:37.822Z"
 }
