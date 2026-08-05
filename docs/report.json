@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-05T10:08:55.031Z",
+  "startedAt": "2026-08-05T12:17:31.585Z",
   "written": 4,
   "skipped": [],
   "tabs": [
@@ -199,7 +199,7 @@
       "code": "SA-8B-203",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-9B-G01",
@@ -422,8 +422,8 @@
       "slug": "CL7-CH18-02",
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH3-01",
@@ -548,8 +548,8 @@
       "slug": "CL11-15A-03",
       "code": "CL11-15A-03",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL11-16B-02",
@@ -604,22 +604,22 @@
       "slug": "z-106",
       "code": "z-106",
       "compound": "Gaia",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "B-65",
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "R16-3",
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -808,14 +808,14 @@
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "west-2803",
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -833,16 +833,7 @@
     }
   ],
   "collisions": [],
-  "pruned": [
-    {
-      "slug": "west-2802",
-      "compound": "Hacienda west & D-bay"
-    },
-    {
-      "slug": "Wst-haz-3613",
-      "compound": "Hacienda west & D-bay"
-    }
-  ],
+  "pruned": [],
   "aliases": [
     {
       "alias": "Cl11-16-03",
@@ -851,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-05T10:08:55.072Z"
+  "finishedAt": "2026-08-05T12:17:31.624Z"
 }
