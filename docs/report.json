@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-05T16:46:27.736Z",
-  "written": 2,
+  "startedAt": "2026-08-05T18:24:35.382Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -780,14 +780,14 @@
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "L1-LF-4A",
       "code": "L1-LF-4A",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-CAB-21D",
@@ -833,12 +833,7 @@
     }
   ],
   "collisions": [],
-  "pruned": [
-    {
-      "slug": "B1-c2b",
-      "compound": "Hacienda west & D-bay"
-    }
-  ],
+  "pruned": [],
   "aliases": [
     {
       "alias": "Cl11-16-03",
@@ -847,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-05T16:46:27.776Z"
+  "finishedAt": "2026-08-05T18:24:35.413Z"
 }
