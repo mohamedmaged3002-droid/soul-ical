@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-06T01:07:22.594Z",
-  "written": 1,
+  "startedAt": "2026-08-06T04:31:33.328Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -598,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-06T01:07:22.632Z"
+  "finishedAt": "2026-08-06T04:31:33.367Z"
 }
