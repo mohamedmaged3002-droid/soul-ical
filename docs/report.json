@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-07T18:03:28.069Z",
-  "written": 2,
+  "startedAt": "2026-08-07T19:16:50.445Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -577,7 +577,7 @@
       "code": "Cl11-18b-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-20A-01",
@@ -591,7 +591,7 @@
       "code": "CL11-21-BG",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Z27-4",
@@ -611,8 +611,8 @@
       "slug": "B-65",
       "code": "B-65",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "R16-3",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-07T18:03:28.096Z"
+  "finishedAt": "2026-08-07T19:16:50.488Z"
 }
