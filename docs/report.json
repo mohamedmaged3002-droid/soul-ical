@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-07T21:00:13.590Z",
-  "written": 0,
+  "startedAt": "2026-08-07T21:51:18.961Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -808,7 +808,7 @@
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "west-2803",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-07T21:00:13.629Z"
+  "finishedAt": "2026-08-07T21:51:19.001Z"
 }
