@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-08T19:17:48.333Z",
-  "written": 0,
+  "startedAt": "2026-08-08T19:55:20.080Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -520,8 +520,8 @@
       "slug": "cl11-ch9b-02",
       "code": "cl11-ch9b-02",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch13-ag",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-08T19:17:48.373Z"
+  "finishedAt": "2026-08-08T19:55:20.112Z"
 }
