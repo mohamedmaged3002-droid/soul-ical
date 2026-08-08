@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-08T09:55:03.434Z",
-  "written": 0,
+  "startedAt": "2026-08-08T10:38:26.588Z",
+  "written": 9,
   "skipped": [],
   "tabs": [
     {
@@ -177,8 +177,8 @@
       "slug": "SA-6b-G03",
       "code": "SA-6b-G03",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "SA-8A-201",
@@ -213,7 +213,7 @@
       "code": "ST5-49-01-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "ST5-CH79-01-01",
@@ -317,8 +317,8 @@
       "slug": "CL3-26-g01",
       "code": "CL3-26-g01",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL3-27-g01",
@@ -366,8 +366,8 @@
       "slug": "CL4-20-G01",
       "code": "CL4-20-G01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch22-03",
@@ -430,7 +430,7 @@
       "code": "CL7-CH3-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl9-ch24-02",
@@ -548,8 +548,8 @@
       "slug": "CL11-15A-03",
       "code": "CL11-15A-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL11-16B-02",
@@ -779,8 +779,8 @@
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "L1-LF-4A",
@@ -807,8 +807,8 @@
       "slug": "WST-GCH-154af-s",
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "west-2803",
@@ -821,8 +821,8 @@
       "slug": "Wst-haz-3614",
       "code": "Wst-haz-3614",
       "compound": "Hacienda west & D-bay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Wst-hazel-3223",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-08T09:55:03.466Z"
+  "finishedAt": "2026-08-08T10:38:26.631Z"
 }
