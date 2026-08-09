@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-09T13:59:39.742Z",
-  "written": 4,
+  "startedAt": "2026-08-09T14:45:50.281Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -30,13 +30,6 @@
       "reason": null,
       "dateRows": 135,
       "units": 73
-    },
-    {
-      "title": "Sheet25",
-      "ok": false,
-      "reason": "no-date-rows",
-      "dateRows": 0,
-      "units": 0
     },
     {
       "title": "Gaia prices",
@@ -366,8 +359,8 @@
       "slug": "CL4-19-02",
       "code": "CL4-19-02",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL4-20-G01",
@@ -605,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -780,14 +773,14 @@
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "L1-LF-4A",
@@ -822,7 +815,7 @@
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -849,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-09T13:59:39.783Z"
+  "finishedAt": "2026-08-09T14:45:50.319Z"
 }
