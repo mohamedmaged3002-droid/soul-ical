@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T09:03:55.751Z",
+  "updatedAt": "2026-08-09T09:57:48.067Z",
   "units": [
     {
       "slug": "A27-6",
@@ -646,8 +646,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "R16-3 — 2 BEDROOM — Gaia",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-08-13/2026-08-18",
+      "blockedRanges": 1
     },
     {
       "slug": "SA-1B-05",
