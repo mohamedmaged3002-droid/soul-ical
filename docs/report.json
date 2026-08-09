@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-09T02:04:28.449Z",
-  "written": 4,
+  "startedAt": "2026-08-09T03:53:13.986Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -619,7 +619,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -773,14 +773,14 @@
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "L1-LF-4A",
@@ -794,7 +794,7 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-09T02:04:28.535Z"
+  "finishedAt": "2026-08-09T03:53:14.026Z"
 }
