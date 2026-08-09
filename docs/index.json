@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T10:44:27.392Z",
+  "updatedAt": "2026-08-09T11:15:21.929Z",
   "units": [
     {
       "slug": "A27-6",
@@ -601,8 +601,8 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany\nPRIVATE POOL",
       "title": "CL8-V9 — 4 bed stand alone + nany\nPRIVATE POOL — Foukabay",
-      "sig": "2026-08-06/2026-08-22",
-      "blockedRanges": 1
+      "sig": "2026-08-06/2026-08-22,2026-08-27/2026-09-02",
+      "blockedRanges": 2
     },
     {
       "slug": "Cl9-ch17-02",
