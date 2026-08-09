@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-09T09:57:48.024Z",
-  "written": 1,
+  "startedAt": "2026-08-09T10:44:27.353Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -626,7 +626,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-09T09:57:48.067Z"
+  "finishedAt": "2026-08-09T10:44:27.392Z"
 }
