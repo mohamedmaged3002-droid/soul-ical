@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:46:12.916Z",
+  "updatedAt": "2026-08-09T02:04:28.535Z",
   "units": [
     {
       "slug": "A27-6",
@@ -61,8 +61,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2 BEEDROOM",
       "title": "B1-SC-12C — 2 BEEDROOM — Hacienda west & D-bay",
-      "sig": "2026-08-06/2026-08-09",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "B1-SC-12D",
@@ -70,8 +70,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2 BEEDROOM",
       "title": "B1-SC-12D — 2 BEEDROOM — Hacienda west & D-bay",
-      "sig": "2026-08-03/2026-08-09,2026-08-20/2026-08-23",
-      "blockedRanges": 2
+      "sig": "2026-08-20/2026-08-23",
+      "blockedRanges": 1
     },
     {
       "slug": "B2-ch40-01-02",
@@ -646,8 +646,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "R16-3 — 2 BEDROOM — Gaia",
-      "sig": "2026-08-06/2026-08-09",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "SA-1B-05",
@@ -889,8 +889,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "cabin sea view",
       "title": "WST-CAB-21D — cabin sea view — Hacienda west & D-bay",
-      "sig": "2026-08-06/2026-08-09,2026-08-19/2026-08-22",
-      "blockedRanges": 2
+      "sig": "2026-08-19/2026-08-22",
+      "blockedRanges": 1
     },
     {
       "slug": "Wst-CAB-L240",
