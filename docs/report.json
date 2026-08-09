@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-09T07:09:05.983Z",
-  "written": 0,
+  "startedAt": "2026-08-09T08:02:55.301Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -30,6 +30,13 @@
       "reason": null,
       "dateRows": 135,
       "units": 73
+    },
+    {
+      "title": "Sheet25",
+      "ok": false,
+      "reason": "no-date-rows",
+      "dateRows": 0,
+      "units": 0
     },
     {
       "title": "Gaia prices",
@@ -450,8 +457,8 @@
       "slug": "CL10-11A-G",
       "code": "CL10-11A-G",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL10-CH11B-02",
@@ -842,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-09T07:09:06.022Z"
+  "finishedAt": "2026-08-09T08:02:55.342Z"
 }
