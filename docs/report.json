@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-10T18:26:08.425Z",
-  "written": 1,
+  "startedAt": "2026-08-10T19:33:29.675Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -724,7 +724,7 @@
       "code": "B2-ch40-01-02",
       "compound": "Sokhna",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "b3-ch84-02-01",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-10T18:26:08.466Z"
+  "finishedAt": "2026-08-10T19:33:29.715Z"
 }
