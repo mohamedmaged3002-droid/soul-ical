@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:49:58.095Z",
+  "updatedAt": "2026-08-10T02:08:53.326Z",
   "units": [
     {
       "slug": "A27-6",
@@ -43,8 +43,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "B-65 — 2 BEDROOM — Gaia",
-      "sig": "2026-08-05/2026-08-10,2026-08-11/2026-08-16,2026-08-19/2026-08-22",
-      "blockedRanges": 3
+      "sig": "2026-08-11/2026-08-16,2026-08-19/2026-08-22",
+      "blockedRanges": 2
     },
     {
       "slug": "B1-CH20-02-04",
@@ -592,8 +592,8 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany",
       "title": "CL8-V8 — 4 bed stand alone + nany — Foukabay",
-      "sig": "2026-08-05/2026-08-10,2026-08-12/2026-08-15,2026-08-27/2026-08-31,2026-09-02/2026-09-05",
-      "blockedRanges": 4
+      "sig": "2026-08-12/2026-08-15,2026-08-27/2026-08-31,2026-09-02/2026-09-05",
+      "blockedRanges": 3
     },
     {
       "slug": "CL8-V9",
@@ -880,8 +880,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2",
       "title": "west-2803 — 2 — Hacienda west & D-bay",
-      "sig": "2026-08-07/2026-08-10,2026-08-13/2026-08-16,2026-08-26/2026-08-30",
-      "blockedRanges": 3
+      "sig": "2026-08-13/2026-08-16,2026-08-26/2026-08-30",
+      "blockedRanges": 2
     },
     {
       "slug": "WST-CAB-21D",
@@ -934,8 +934,8 @@
       "compound": "Gaia",
       "beds": "3",
       "title": "z-106 — 3 — Gaia",
-      "sig": "2026-08-07/2026-08-10,2026-08-14/2026-08-19",
-      "blockedRanges": 2
+      "sig": "2026-08-14/2026-08-19",
+      "blockedRanges": 1
     },
     {
       "slug": "z2202",
@@ -943,8 +943,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "z2202 — 2 BEDROOM — Gaia",
-      "sig": "2026-08-06/2026-08-10,2026-08-13/2026-08-16,2026-08-21/2026-08-24",
-      "blockedRanges": 3
+      "sig": "2026-08-13/2026-08-16,2026-08-21/2026-08-24",
+      "blockedRanges": 2
     },
     {
       "slug": "Z27-4",
