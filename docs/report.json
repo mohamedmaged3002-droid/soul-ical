@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-10T10:21:10.073Z",
-  "written": 4,
+  "startedAt": "2026-08-10T11:30:53.328Z",
+  "written": 3,
   "skipped": [],
   "tabs": [
     {
@@ -360,7 +360,7 @@
       "code": "CL4-19-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL4-20-G01",
@@ -464,8 +464,8 @@
       "slug": "cl10-12b-03",
       "code": "cl10-12b-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL10-14A-G",
@@ -562,15 +562,15 @@
       "slug": "Cl11-16b-03",
       "code": "Cl11-16b-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-17A-G",
       "code": "Cl11-17A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl11-18b-G",
@@ -619,7 +619,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -838,9 +838,9 @@
     {
       "alias": "Cl11-16-03",
       "target": "Cl11-16b-03",
-      "ranges": 2,
-      "written": false
+      "ranges": 1,
+      "written": true
     }
   ],
-  "finishedAt": "2026-08-10T10:21:10.114Z"
+  "finishedAt": "2026-08-10T11:30:53.367Z"
 }
