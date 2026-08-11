@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-11T17:42:47.074Z",
-  "written": 2,
+  "startedAt": "2026-08-11T18:39:17.032Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -787,14 +787,14 @@
       "code": "L1-LF-4A",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cabin-Dbay",
       "code": "cabin Dbay",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-CAB-21D",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-11T17:42:47.116Z"
+  "finishedAt": "2026-08-11T18:39:17.073Z"
 }
