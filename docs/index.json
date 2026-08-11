@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T10:12:13.514Z",
+  "updatedAt": "2026-08-11T11:06:42.292Z",
   "units": [
     {
       "slug": "A27-6",
@@ -180,6 +180,15 @@
       "title": "C3-CH1-01-01 — 3 bedrooms — Sokhna",
       "sig": "",
       "blockedRanges": 0
+    },
+    {
+      "slug": "cabin-Dbay",
+      "code": "cabin Dbay",
+      "compound": "Hacienda west & D-bay",
+      "beds": "sea view",
+      "title": "cabin Dbay — sea view — Hacienda west & D-bay",
+      "sig": "2026-08-15/2026-08-17",
+      "blockedRanges": 1
     },
     {
       "slug": "Ch24-G01",
