@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-11T18:39:17.032Z",
-  "written": 0,
+  "startedAt": "2026-08-11T19:47:56.432Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -317,8 +317,8 @@
       "slug": "CL3-26-g01",
       "code": "CL3-26-g01",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "CL3-27-g01",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-11T18:39:17.073Z"
+  "finishedAt": "2026-08-11T19:47:56.474Z"
 }

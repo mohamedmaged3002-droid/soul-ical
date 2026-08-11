@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T18:39:17.073Z",
+  "updatedAt": "2026-08-11T19:47:56.474Z",
   "units": [
     {
       "slug": "A27-6",
@@ -439,8 +439,8 @@
       "compound": "Foukabay",
       "beds": "3 bed + nany",
       "title": "CL3-26-g01 — 3 bed + nany — Foukabay",
-      "sig": "2026-08-10/2026-08-22",
-      "blockedRanges": 1
+      "sig": "2026-08-10/2026-08-22,2026-08-26/2026-08-30",
+      "blockedRanges": 2
     },
     {
       "slug": "CL3-27-g01",
