@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-11T09:09:14.746Z",
-  "written": 0,
+  "startedAt": "2026-08-11T10:12:13.471Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -367,7 +367,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch22-03",
@@ -842,5 +842,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-11T09:09:14.793Z"
+  "finishedAt": "2026-08-11T10:12:13.514Z"
 }
