@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T18:10:02.888Z",
+  "updatedAt": "2026-08-12T19:27:53.560Z",
   "units": [
     {
       "slug": "A27-6",
@@ -889,8 +889,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2",
       "title": "west-2803 — 2 — Hacienda west & D-bay",
-      "sig": "2026-08-26/2026-08-30",
-      "blockedRanges": 1
+      "sig": "2026-08-13/2026-08-16,2026-08-26/2026-08-30",
+      "blockedRanges": 2
     },
     {
       "slug": "WST-CAB-21D",
