@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-12T12:00:58.535Z",
-  "written": 1,
+  "startedAt": "2026-08-12T13:48:56.567Z",
+  "written": 3,
   "skipped": [],
   "tabs": [
     {
@@ -108,7 +108,7 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
@@ -163,8 +163,8 @@
       "slug": "SA-4B-102",
       "code": "SA-4B-102",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "SA-4B-104",
@@ -493,7 +493,7 @@
       "code": "CL10-21B-03",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-22-03",
@@ -583,8 +583,8 @@
       "slug": "CL11-20A-01",
       "code": "CL11-20A-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL11-21-BG",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-12T12:00:58.574Z"
+  "finishedAt": "2026-08-12T13:48:56.609Z"
 }
