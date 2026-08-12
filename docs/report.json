@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-12T22:03:48.697Z",
-  "written": 2,
+  "startedAt": "2026-08-12T23:02:40.448Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -808,14 +808,14 @@
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-GCH-154af-s",
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "west-2803",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-12T22:03:48.737Z"
+  "finishedAt": "2026-08-12T23:02:40.488Z"
 }
