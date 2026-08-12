@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-12T08:54:04.149Z",
-  "written": 2,
+  "startedAt": "2026-08-12T10:11:13.113Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -53,18 +53,18 @@
       "units": 15
     },
     {
-      "title": "Hacienda west & D-bay availabilty",
-      "ok": true,
-      "reason": null,
-      "dateRows": 135,
-      "units": 10
-    },
-    {
       "title": "Sokhna prices",
       "ok": false,
       "reason": "prices-tab",
       "dateRows": 0,
       "units": 0
+    },
+    {
+      "title": "Hacienda west & D-bay availabilty",
+      "ok": true,
+      "reason": null,
+      "dateRows": 135,
+      "units": 10
     },
     {
       "title": "Hacienda west & D-bay prices",
@@ -108,7 +108,7 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
@@ -822,7 +822,7 @@
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-12T08:54:04.196Z"
+  "finishedAt": "2026-08-12T10:11:13.155Z"
 }
