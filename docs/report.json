@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-12T10:11:13.113Z",
-  "written": 0,
+  "startedAt": "2026-08-12T11:11:44.000Z",
+  "written": 6,
   "skipped": [],
   "tabs": [
     {
@@ -93,8 +93,8 @@
       "slug": "CL8-V8",
       "code": "CL8-V8",
       "compound": "Foukabay",
-      "ranges": 3,
-      "decision": "unchanged"
+      "ranges": 4,
+      "decision": "ok"
     },
     {
       "slug": "CL8-V9",
@@ -339,7 +339,7 @@
       "code": "CL4-16-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-16-03",
@@ -415,8 +415,8 @@
       "slug": "CL7-CH18-01",
       "code": "CL7-CH18-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-02",
@@ -492,8 +492,8 @@
       "slug": "CL10-21B-03",
       "code": "CL10-21B-03",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "CL10-22-03",
@@ -549,7 +549,7 @@
       "code": "CL11-15A-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL11-16B-02",
@@ -800,8 +800,8 @@
       "slug": "WST-CAB-21D",
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-12T10:11:13.155Z"
+  "finishedAt": "2026-08-12T11:11:44.042Z"
 }

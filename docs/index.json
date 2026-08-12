@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T10:11:13.155Z",
+  "updatedAt": "2026-08-12T11:11:44.042Z",
   "units": [
     {
       "slug": "A27-6",
@@ -277,8 +277,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL10-21B-03 — 3 bed — Foukabay",
-      "sig": "2026-08-07/2026-08-13,2026-08-14/2026-08-29",
-      "blockedRanges": 2
+      "sig": "2026-08-07/2026-08-13,2026-08-14/2026-08-21,2026-08-22/2026-08-29",
+      "blockedRanges": 3
     },
     {
       "slug": "CL10-22-03",
@@ -313,7 +313,7 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "CL11-15A-03 — 3 bed — Foukabay",
-      "sig": "2026-07-24/2026-08-22",
+      "sig": "2026-07-24/2026-08-18",
       "blockedRanges": 1
     },
     {
@@ -466,7 +466,7 @@
       "compound": "Foukabay",
       "beds": "3+1",
       "title": "CL4-16-02 — 3+1 — Foukabay",
-      "sig": "2026-07-17/2026-08-25,2026-08-28/2026-09-06",
+      "sig": "2026-07-17/2026-08-25,2026-09-01/2026-09-06",
       "blockedRanges": 2
     },
     {
@@ -565,8 +565,8 @@
       "compound": "Foukabay",
       "beds": "3 bed + nany",
       "title": "CL7-CH18-01 — 3 bed + nany — Foukabay",
-      "sig": "2026-07-21/2026-08-13,2026-08-15/2026-08-19",
-      "blockedRanges": 2
+      "sig": "2026-07-21/2026-08-19",
+      "blockedRanges": 1
     },
     {
       "slug": "CL7-CH18-02",
@@ -601,8 +601,8 @@
       "compound": "Foukabay",
       "beds": "4 bed stand alone + nany",
       "title": "CL8-V8 — 4 bed stand alone + nany — Foukabay",
-      "sig": "2026-08-12/2026-08-20,2026-08-27/2026-08-31,2026-09-02/2026-09-05",
-      "blockedRanges": 3
+      "sig": "2026-08-12/2026-08-19,2026-08-20/2026-08-24,2026-08-27/2026-08-31,2026-09-02/2026-09-05",
+      "blockedRanges": 4
     },
     {
       "slug": "CL8-V9",
@@ -898,8 +898,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "cabin sea view",
       "title": "WST-CAB-21D — cabin sea view — Hacienda west & D-bay",
-      "sig": "2026-08-19/2026-08-22",
-      "blockedRanges": 1
+      "sig": "2026-08-14/2026-08-16,2026-08-19/2026-08-22",
+      "blockedRanges": 2
     },
     {
       "slug": "Wst-CAB-L240",
