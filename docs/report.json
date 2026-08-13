@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-13T09:17:07.860Z",
-  "written": 2,
+  "startedAt": "2026-08-13T10:37:24.696Z",
+  "written": 3,
   "skipped": [],
   "tabs": [
     {
@@ -324,8 +324,8 @@
       "slug": "CL3-27-g01",
       "code": "CL3-27-g01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 3,
+      "decision": "ok"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -801,7 +801,7 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -829,7 +829,7 @@
       "code": "Wst-haz-3614",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-hazel-3223",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-13T09:17:07.900Z"
+  "finishedAt": "2026-08-13T10:37:24.738Z"
 }
