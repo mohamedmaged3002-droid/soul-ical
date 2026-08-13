@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T07:54:48.902Z",
+  "updatedAt": "2026-08-13T09:17:07.900Z",
   "units": [
     {
       "slug": "A27-6",
@@ -907,7 +907,7 @@
       "compound": "Hacienda west & D-bay",
       "beds": "capin",
       "title": "Wst-CAB-L240 — capin — Hacienda west & D-bay",
-      "sig": "2026-08-13/2026-08-14",
+      "sig": "2026-08-13/2026-08-17",
       "blockedRanges": 1
     },
     {
@@ -925,7 +925,7 @@
       "compound": "Hacienda west & D-bay",
       "beds": "3",
       "title": "Wst-haz-3614 — 3 — Hacienda west & D-bay",
-      "sig": "2026-07-26/2026-08-15,2026-08-24/2026-08-28",
+      "sig": "2026-07-26/2026-08-15,2026-08-20/2026-08-28",
       "blockedRanges": 2
     },
     {
