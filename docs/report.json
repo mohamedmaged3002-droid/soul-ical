@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-14T16:34:08.795Z",
-  "written": 1,
+  "startedAt": "2026-08-14T17:39:34.069Z",
+  "written": 3,
   "skipped": [],
   "tabs": [
     {
@@ -408,8 +408,8 @@
       "slug": "CL7-CH13-G01",
       "code": "CL7-CH13-G01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH18-01",
@@ -423,7 +423,7 @@
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL7-CH3-01",
@@ -472,7 +472,7 @@
       "code": "CL10-14A-G",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl10-ch13b-02",
@@ -808,7 +808,7 @@
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-14T16:34:08.836Z"
+  "finishedAt": "2026-08-14T17:39:34.110Z"
 }
