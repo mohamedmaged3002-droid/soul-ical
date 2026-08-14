@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-14T11:58:21.298Z",
-  "written": 2,
+  "startedAt": "2026-08-14T13:24:52.940Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -402,7 +402,7 @@
       "code": "CL4-CH34-G01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH13-G01",
@@ -598,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-14T11:58:21.343Z"
+  "finishedAt": "2026-08-14T13:24:53.009Z"
 }
