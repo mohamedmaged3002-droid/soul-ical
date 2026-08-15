@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T12:46:08.334Z",
-  "written": 8,
+  "startedAt": "2026-08-15T13:33:53.893Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -108,7 +108,7 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
@@ -122,21 +122,21 @@
       "code": "SA-1B-05",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-2B-01",
       "code": "SA-2B-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-2b-B03",
       "code": "SA-2b-B03",
       "compound": "Foukabay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B01",
@@ -227,7 +227,7 @@
       "code": "ST5-85-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-86-01-01",
@@ -304,7 +304,7 @@
       "code": "CL1-TW42-3",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL2-CH8-01",
@@ -367,7 +367,7 @@
       "code": "CL4-19-02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL4-20-G01",
@@ -423,14 +423,14 @@
       "code": "CL7-CH18-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL7-CH18-02",
       "code": "CL7-CH18-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl9-ch24-02",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T12:46:08.378Z"
+  "finishedAt": "2026-08-15T13:33:53.936Z"
 }
