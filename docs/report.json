@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T21:35:37.463Z",
-  "written": 0,
+  "startedAt": "2026-08-15T21:57:45.801Z",
+  "written": 3,
   "skipped": [],
   "tabs": [
     {
@@ -135,8 +135,8 @@
       "slug": "SA-2b-B03",
       "code": "SA-2b-B03",
       "compound": "Foukabay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "SA-3A-B01",
@@ -611,15 +611,15 @@
       "slug": "B-65",
       "code": "B-65",
       "compound": "Gaia",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "R16-3",
       "code": "R16-3",
       "compound": "Gaia",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "z2202",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T21:35:37.505Z"
+  "finishedAt": "2026-08-15T21:57:45.840Z"
 }
