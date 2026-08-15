@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T18:40:44.228Z",
-  "written": 1,
+  "startedAt": "2026-08-15T19:04:08.245Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -276,7 +276,7 @@
       "code": "ST5-94-G02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-34-02",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T18:40:44.269Z"
+  "finishedAt": "2026-08-15T19:04:08.289Z"
 }
