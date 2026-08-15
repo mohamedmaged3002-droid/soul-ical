@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-14T23:38:19.560Z",
-  "written": 0,
+  "startedAt": "2026-08-15T00:00:59.024Z",
+  "written": 8,
   "skipped": [],
   "tabs": [
     {
@@ -289,15 +289,15 @@
       "slug": "CL1-37-01",
       "code": "CL1-37-01",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL1-TH11",
       "code": "CL1-TH11",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "CL1-TW42-3",
@@ -331,8 +331,8 @@
       "slug": "Cl3-TW-16B",
       "code": "Cl3-TW-16B",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -520,8 +520,8 @@
       "slug": "cl11-8a-02",
       "code": "cl11-8a-02",
       "compound": "Foukabay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "cl11-ch9b-02",
@@ -730,8 +730,8 @@
       "slug": "B2-ch40-01-02",
       "code": "B2-ch40-01-02",
       "compound": "Sokhna",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "b3-ch84-02-01",
@@ -786,15 +786,15 @@
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "L1-LF-4A",
       "code": "L1-LF-4A",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "cabin-Dbay",
@@ -814,8 +814,8 @@
       "slug": "Wst-CAB-L240",
       "code": "Wst-CAB-L240",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 0,
+      "decision": "ok"
     },
     {
       "slug": "WST-GCH-154af-s",
@@ -856,5 +856,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-14T23:38:19.599Z"
+  "finishedAt": "2026-08-15T00:00:59.066Z"
 }
