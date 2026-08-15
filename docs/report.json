@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T13:59:53.720Z",
-  "written": 1,
+  "startedAt": "2026-08-15T14:33:05.162Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -108,7 +108,7 @@
       "code": "CL8-V11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "F1-V20",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T13:59:53.759Z"
+  "finishedAt": "2026-08-15T14:33:05.194Z"
 }
