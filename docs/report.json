@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T09:30:11.393Z",
-  "written": 2,
+  "startedAt": "2026-08-15T09:53:59.525Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -29,7 +29,7 @@
       "ok": true,
       "reason": null,
       "dateRows": 135,
-      "units": 74
+      "units": 73
     },
     {
       "title": "Gaia prices",
@@ -143,7 +143,7 @@
       "code": "SA-3A-B01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B02",
@@ -331,8 +331,8 @@
       "slug": "Cl3-TW-16B",
       "code": "Cl3-TW-16B",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Cl3-TW4-AX",
@@ -428,13 +428,6 @@
     {
       "slug": "CL7-CH18-02",
       "code": "CL7-CH18-02",
-      "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
-    },
-    {
-      "slug": "CL7-CH3-01",
-      "code": "CL7-CH3-01",
       "compound": "Foukabay",
       "ranges": 1,
       "decision": "unchanged"
@@ -556,7 +549,7 @@
       "code": "CL11-15A-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-16B-02",
@@ -847,7 +840,12 @@
     }
   ],
   "collisions": [],
-  "pruned": [],
+  "pruned": [
+    {
+      "slug": "CL7-CH3-01",
+      "compound": "Foukabay"
+    }
+  ],
   "aliases": [
     {
       "alias": "Cl11-16-03",
@@ -856,5 +854,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T09:30:11.437Z"
+  "finishedAt": "2026-08-15T09:53:59.566Z"
 }
