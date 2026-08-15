@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T17:58:05.527Z",
+  "updatedAt": "2026-08-15T18:40:44.269Z",
   "units": [
     {
       "slug": "A27-6",
@@ -862,8 +862,8 @@
       "compound": "Foukabay",
       "beds": "3 bed",
       "title": "ST5-94-G02 — 3 bed — Foukabay",
-      "sig": "2026-07-01/2026-08-17,2026-08-21/2026-10-02",
-      "blockedRanges": 2
+      "sig": "2026-07-01/2026-10-02",
+      "blockedRanges": 1
     },
     {
       "slug": "ST5-CH79-01-01",
