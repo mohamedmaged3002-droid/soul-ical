@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-15T16:34:24.705Z",
-  "written": 1,
+  "startedAt": "2026-08-15T17:01:11.225Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -213,7 +213,7 @@
       "code": "ST5-49-01-01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-CH79-01-01",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-15T16:34:24.745Z"
+  "finishedAt": "2026-08-15T17:01:11.266Z"
 }
