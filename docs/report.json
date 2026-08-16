@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T14:40:34.808Z",
-  "written": 1,
+  "startedAt": "2026-08-16T15:00:42.449Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -150,7 +150,7 @@
       "code": "SA-3A-B02",
       "compound": "Foukabay",
       "ranges": 3,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-4A-103",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T14:40:34.853Z"
+  "finishedAt": "2026-08-16T15:00:42.491Z"
 }
