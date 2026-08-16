@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T11:35:11.151Z",
-  "written": 3,
+  "startedAt": "2026-08-16T11:58:02.808Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -143,7 +143,7 @@
       "code": "SA-3A-B01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "SA-3A-B02",
@@ -311,7 +311,7 @@
       "code": "CL2-CH8-01",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL3-26-g01",
@@ -570,7 +570,7 @@
       "code": "Cl11-17A-G",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl11-18b-G",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T11:35:11.193Z"
+  "finishedAt": "2026-08-16T11:58:02.841Z"
 }
