@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T11:58:02.808Z",
-  "written": 0,
+  "startedAt": "2026-08-16T12:55:10.193Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -569,8 +569,8 @@
       "slug": "Cl11-17A-G",
       "code": "Cl11-17A-G",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Cl11-18b-G",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T11:58:02.841Z"
+  "finishedAt": "2026-08-16T12:55:10.227Z"
 }
