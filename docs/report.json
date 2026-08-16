@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T15:00:42.449Z",
-  "written": 0,
+  "startedAt": "2026-08-16T15:37:02.157Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -198,8 +198,8 @@
       "slug": "SA-8B-203",
       "code": "SA-8B-203",
       "compound": "Foukabay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "SA-9B-G01",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T15:00:42.491Z"
+  "finishedAt": "2026-08-16T15:37:02.199Z"
 }
