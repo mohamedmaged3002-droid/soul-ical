@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T01:39:40.103Z",
-  "written": 8,
+  "startedAt": "2026-08-16T02:47:19.219Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -283,7 +283,7 @@
       "code": "CL1-34-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-37-01",
@@ -542,7 +542,7 @@
       "code": "cl11-ch13a-03",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL11-15A-03",
@@ -598,7 +598,7 @@
       "code": "Z27-4",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z-106",
@@ -612,21 +612,21 @@
       "code": "B-65",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "R16-3",
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
       "code": "z2202",
       "compound": "Gaia",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "A61-4",
@@ -815,14 +815,14 @@
       "code": "WST-GCH-154af-s",
       "compound": "Hacienda west & D-bay",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "west-2803",
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-haz-3614",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T01:39:40.143Z"
+  "finishedAt": "2026-08-16T02:47:19.264Z"
 }
