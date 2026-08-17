@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-17T13:54:07.667Z",
+  "startedAt": "2026-08-17T14:32:10.148Z",
   "written": 1,
   "skipped": [],
   "tabs": [
@@ -506,7 +506,7 @@
       "slug": "Cl11-CH8A-G",
       "code": "Cl11-CH8A-G",
       "compound": "Foukabay",
-      "ranges": 1,
+      "ranges": 2,
       "decision": "ok"
     },
     {
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-17T13:54:07.714Z"
+  "finishedAt": "2026-08-17T14:32:10.192Z"
 }
