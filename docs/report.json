@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-17T21:43:07.504Z",
-  "written": 1,
+  "startedAt": "2026-08-17T22:02:31.547Z",
+  "written": 0,
   "skipped": [],
   "tabs": [
     {
@@ -297,7 +297,7 @@
       "code": "CL1-TH11",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "CL1-TW42-3",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-17T21:43:07.547Z"
+  "finishedAt": "2026-08-17T22:02:31.588Z"
 }
