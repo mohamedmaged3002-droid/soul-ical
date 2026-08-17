@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T23:46:39.489Z",
+  "updatedAt": "2026-08-17T01:37:27.838Z",
   "units": [
     {
       "slug": "A27-6",
@@ -898,8 +898,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "cabin sea view",
       "title": "WST-CAB-21D — cabin sea view — Hacienda west & D-bay",
-      "sig": "2026-08-13/2026-08-17,2026-08-19/2026-08-22",
-      "blockedRanges": 2
+      "sig": "2026-08-19/2026-08-22",
+      "blockedRanges": 1
     },
     {
       "slug": "Wst-CAB-L240",

@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-16T23:46:39.457Z",
-  "written": 0,
+  "startedAt": "2026-08-17T01:37:27.795Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -800,8 +800,8 @@
       "slug": "WST-CAB-21D",
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-16T23:46:39.489Z"
+  "finishedAt": "2026-08-17T01:37:27.838Z"
 }
