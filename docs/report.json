@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-18T18:14:50.920Z",
-  "written": 0,
+  "startedAt": "2026-08-18T19:01:37.065Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -486,7 +486,7 @@
       "code": "CL10-15A-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "CL10-21B-03",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-18T18:14:50.965Z"
+  "finishedAt": "2026-08-18T19:01:37.109Z"
 }
