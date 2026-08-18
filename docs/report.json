@@ -1,5 +1,5 @@
 {
-  "startedAt": "2026-08-18T11:03:24.829Z",
+  "startedAt": "2026-08-18T11:42:37.611Z",
   "written": 2,
   "skipped": [],
   "tabs": [
@@ -563,7 +563,7 @@
       "code": "Cl11-16b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Cl11-17A-G",
@@ -695,8 +695,8 @@
       "slug": "WST-CAB-21D",
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -846,8 +846,8 @@
       "alias": "Cl11-16-03",
       "target": "Cl11-16b-03",
       "ranges": 2,
-      "written": true
+      "written": false
     }
   ],
-  "finishedAt": "2026-08-18T11:03:24.871Z"
+  "finishedAt": "2026-08-18T11:42:37.657Z"
 }
