@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T07:41:36.590Z",
+  "updatedAt": "2026-08-18T08:15:59.678Z",
   "units": [
     {
       "slug": "A27-6",
@@ -61,8 +61,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2 BEEDROOM",
       "title": "B1-SC-12C — 2 BEEDROOM — Hacienda west & D-bay",
-      "sig": "2026-08-12/2026-08-21",
-      "blockedRanges": 1
+      "sig": "2026-08-12/2026-08-21,2026-08-26/2026-08-30",
+      "blockedRanges": 2
     },
     {
       "slug": "B1-SC-12D",
@@ -70,8 +70,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "2 BEEDROOM",
       "title": "B1-SC-12D — 2 BEEDROOM — Hacienda west & D-bay",
-      "sig": "",
-      "blockedRanges": 0
+      "sig": "2026-08-26/2026-08-30",
+      "blockedRanges": 1
     },
     {
       "slug": "B2-ch40-01-02",

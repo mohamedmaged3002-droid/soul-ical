@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-18T07:41:36.543Z",
-  "written": 0,
+  "startedAt": "2026-08-18T08:15:59.635Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -667,15 +667,15 @@
       "slug": "B1-SC-12C",
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
-      "ranges": 1,
-      "decision": "unchanged"
+      "ranges": 2,
+      "decision": "ok"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "L1-LF-4A",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-18T07:41:36.590Z"
+  "finishedAt": "2026-08-18T08:15:59.678Z"
 }
