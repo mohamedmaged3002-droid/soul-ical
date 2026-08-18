@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-18T10:33:18.535Z",
-  "written": 3,
+  "startedAt": "2026-08-18T11:03:24.829Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -269,7 +269,7 @@
       "code": "ST5-93-02-02",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "ST5-94-G02",
@@ -563,7 +563,7 @@
       "code": "Cl11-16b-03",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "Cl11-17A-G",
@@ -668,14 +668,14 @@
       "code": "B1-SC-12C",
       "compound": "Hacienda west & D-bay",
       "ranges": 2,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "B1-SC-12D",
       "code": "B1-SC-12D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "L1-LF-4A",
@@ -688,8 +688,8 @@
       "slug": "cabin-Dbay",
       "code": "cabin Dbay",
       "compound": "Hacienda west & D-bay",
-      "ranges": 0,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "WST-CAB-21D",
@@ -846,8 +846,8 @@
       "alias": "Cl11-16-03",
       "target": "Cl11-16b-03",
       "ranges": 2,
-      "written": false
+      "written": true
     }
   ],
-  "finishedAt": "2026-08-18T10:33:18.568Z"
+  "finishedAt": "2026-08-18T11:03:24.871Z"
 }
