@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-19T07:54:55.120Z",
-  "written": 2,
+  "startedAt": "2026-08-19T08:42:30.711Z",
+  "written": 1,
   "skipped": [],
   "tabs": [
     {
@@ -388,7 +388,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch33-03",
@@ -619,7 +619,7 @@
       "code": "R16-3",
       "compound": "Gaia",
       "ranges": 0,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "z2202",
@@ -696,7 +696,7 @@
       "code": "WST-CAB-21D",
       "compound": "Hacienda west & D-bay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "Wst-CAB-L240",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-19T07:54:55.160Z"
+  "finishedAt": "2026-08-19T08:42:30.752Z"
 }
