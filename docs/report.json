@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-19T08:42:30.711Z",
-  "written": 1,
+  "startedAt": "2026-08-19T09:17:10.440Z",
+  "written": 2,
   "skipped": [],
   "tabs": [
     {
@@ -374,7 +374,7 @@
       "code": "CL4-20-G01",
       "compound": "Foukabay",
       "ranges": 2,
-      "decision": "unchanged"
+      "decision": "ok"
     },
     {
       "slug": "cl4-ch22-03",
@@ -388,7 +388,7 @@
       "code": "CL4-CH29-02",
       "compound": "Foukabay",
       "ranges": 1,
-      "decision": "ok"
+      "decision": "unchanged"
     },
     {
       "slug": "cl4-ch33-03",
@@ -716,8 +716,8 @@
       "slug": "west-2803",
       "code": "west-2803",
       "compound": "Hacienda west & D-bay",
-      "ranges": 2,
-      "decision": "unchanged"
+      "ranges": 1,
+      "decision": "ok"
     },
     {
       "slug": "Wst-haz-3614",
@@ -849,5 +849,5 @@
       "written": false
     }
   ],
-  "finishedAt": "2026-08-19T08:42:30.752Z"
+  "finishedAt": "2026-08-19T09:17:10.483Z"
 }
