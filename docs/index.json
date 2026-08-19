@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T07:06:41.951Z",
+  "updatedAt": "2026-08-19T07:54:55.160Z",
   "units": [
     {
       "slug": "A27-6",
@@ -655,8 +655,8 @@
       "compound": "Gaia",
       "beds": "2 BEDROOM",
       "title": "R16-3 — 2 BEDROOM — Gaia",
-      "sig": "2026-08-19/2026-08-22",
-      "blockedRanges": 1
+      "sig": "",
+      "blockedRanges": 0
     },
     {
       "slug": "SA-1B-05",
@@ -898,8 +898,8 @@
       "compound": "Hacienda west & D-bay",
       "beds": "cabin sea view",
       "title": "WST-CAB-21D — cabin sea view — Hacienda west & D-bay",
-      "sig": "2026-08-19/2026-08-22,2026-08-27/2026-08-30",
-      "blockedRanges": 2
+      "sig": "2026-08-27/2026-08-30",
+      "blockedRanges": 1
     },
     {
       "slug": "Wst-CAB-L240",
